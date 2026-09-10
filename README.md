@@ -1,4 +1,4 @@
-![Genesis Suite](docs/cover.svg?design=2)
+![Genesis Suite](docs/cover-v2.svg)
 
 # Genesis Suite
 

@@ -22,7 +22,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "aa64e48ca2a444dcea91963570840d1c7930cfd1dc52b98be958d1d028ff3478"
         },
         {
@@ -55,7 +55,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "4ba287960791a57a0267307cd76076188431a993967441a418605899f780c8fd"
+          "sha256": "6343237a8e9bda03d6ab24f5de47f795a708398a6d5d01c112a60233d1c8f3cb"
         },
         {
           "path": "SECURITY.md",
@@ -92,7 +92,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "153a13615ea17c7e35dc0f6284d8e5f352d8d3f5d2e363b1000c4cf4c77da075"
         },
         {
@@ -125,7 +125,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "5d5418cf52bb361282e6ed448c34b1b0423457091044d066476acde77d47d7b1"
+          "sha256": "403dbd445ae6ed45aa513ad6af7c7407e1dbdbd773fd5536652d3247772c42bd"
         },
         {
           "path": "SECURITY.md",
@@ -162,7 +162,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "6ff9f51eebc0f6f6b8c3b5f80e8d6d77eb211cd4718817a4da6a533338295112"
         },
         {
@@ -195,7 +195,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "888e0663765a62b64b8036c03fa5cec53704bb792cd609e1bce2777c21fc4fe5"
+          "sha256": "f1d8f71621fcdca5f59a5d724661fb118daf6ba0df557b456198f62c4b0dfd66"
         },
         {
           "path": "SECURITY.md",
@@ -232,7 +232,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "1f43ba1b205c84cbbd78224b2661385d3e24032e205b4ef91a8955f78b431d90"
         },
         {
@@ -265,7 +265,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "2ffae8637c4985e8eaa5e039f056c63169f84b02c9dddfc31c3dbcb87c386c07"
+          "sha256": "3b56149ebb68ad5bedde6d84069709850f92fa765c4119696681b87a4f23b1fb"
         },
         {
           "path": "SECURITY.md",
@@ -302,7 +302,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "c9840c7cb47cbf3962731d39155aedbe33f04925b7e22f69fdfed1b00063fa9c"
         },
         {
@@ -335,7 +335,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "edb3ce9c8840f1732614fd10514a3f6ff654c45901036e540a251e8ed69ec8a6"
+          "sha256": "31d38a88e2d6d986249e259211cae519c539dfbd146f48cbefeb0c185b0ff6aa"
         },
         {
           "path": "SECURITY.md",
@@ -372,7 +372,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "4e4332221d88841a6152f8b4bffcfcba267744fb7e84e3e8cd2d5b297d1d7c86"
         },
         {
@@ -405,7 +405,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "87c0e46e09cb20464caa3dd2601f4897fd94f5ec4e947253994ee01097846296"
+          "sha256": "6c1ab88636fc3bc496482e5bca75d7dc728201d60d179e6db3e80bf4c99149b2"
         },
         {
           "path": "SECURITY.md",
@@ -442,7 +442,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "1bbb3e2024310397efa8818a51164e1362874299e83d2c43a12aabbd55d8e442"
         },
         {
@@ -475,7 +475,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "3a14580bf194d6d4a9e4c3c372e6938a7a385fdf133946d5d87b112d9e090527"
+          "sha256": "3c583c0b188963ca4eef4db18532da9a978902c27864bb01ab1e788f515b258a"
         },
         {
           "path": "SECURITY.md",
@@ -512,7 +512,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "5d3f9ccc58e64a5f830d9418b25f92e1cc91e1d88396deee4c1362c0dff0c8ea"
         },
         {
@@ -545,7 +545,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "17e0e09337da8389a8c7ea69b9448805aaf0c9f329a3fa50e63b9c9a187db01f"
+          "sha256": "4924b5916f9584e066ec871f90561dd313dde7e2c1d2b114c19e8515438d327e"
         },
         {
           "path": "SECURITY.md",
@@ -582,7 +582,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "b56e76114da095bb3c12e48003a482c1e33c49cd9c9c6a7ec414c5471645e3cf"
         },
         {
@@ -615,7 +615,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "3a2e766c5b772117125e76240db851fac53254e1d0ed478a813dcbcd83c80a3a"
+          "sha256": "fa16a55855285740720de030031a0aff83952e012f64f46762ddd789c104591a"
         },
         {
           "path": "SECURITY.md",
@@ -652,7 +652,7 @@
           "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
         },
         {
-          "path": "docs/cover.svg",
+          "path": "docs/cover-v2.svg",
           "sha256": "26d3d608d194f390aeb308bae10f466b78bc23a8d56d07c1c1114e74b6c53d19"
         },
         {
@@ -701,7 +701,7 @@
         },
         {
           "path": "README.md",
-          "sha256": "883572a760586602c617ea888c43728c1c677c5a61e7a20073c078e048a47f4e"
+          "sha256": "7e0b57de3aa110bb861a2dbe94ea733fc780587a19e8dbcb85f0083008690deb"
         },
         {
           "path": "repository-design.cjs",

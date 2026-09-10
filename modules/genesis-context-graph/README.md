@@ -1,4 +1,4 @@
-![Context Graph](docs/cover.svg?design=2)
+![Context Graph](docs/cover-v2.svg)
 
 # genesis-context-graph
 

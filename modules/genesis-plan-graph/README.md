@@ -1,4 +1,4 @@
-![Plan Graph](docs/cover.svg?design=2)
+![Plan Graph](docs/cover-v2.svg)
 
 # genesis-plan-graph
 

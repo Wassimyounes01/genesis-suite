@@ -1,4 +1,4 @@
-![Prompt Kit: turn an objective into a testable brief](docs/cover.svg?design=2)
+![Prompt Kit: turn an objective into a testable brief](docs/cover-v2.svg)
 
 # Genesis Prompt Kit
 
