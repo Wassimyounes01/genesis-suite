@@ -6,6 +6,10 @@
       "version": "1.0.0",
       "files": [
         {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
+        {
           "path": ".gitignore",
           "sha256": "0ef562c356fe7824f7df6c541219832a1364c933c1c552abf735c60fca24220e"
         },
@@ -63,6 +67,10 @@
       "name": "genesis-plan-graph",
       "version": "1.0.0",
       "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
         {
           "path": ".gitignore",
           "sha256": "108d2b818b63d1f2ffaefee13455961edf1544f49ccf847396de3e85eb5ad724"
@@ -122,6 +130,10 @@
       "version": "1.0.0",
       "files": [
         {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
+        {
           "path": ".gitignore",
           "sha256": "f0a5367d32d90e1c053e0c9558bf9cdb8ef3de0b29159c7968cdfa0757dc2450"
         },
@@ -179,6 +191,10 @@
       "name": "genesis-context-graph",
       "version": "1.0.0",
       "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
         {
           "path": ".gitignore",
           "sha256": "7c3a1265ee6395eb004769e5123a2f060c59f2aec6b35cfb735634519c4f5515"
@@ -238,6 +254,10 @@
       "version": "1.0.0",
       "files": [
         {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
+        {
           "path": ".gitignore",
           "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c"
         },
@@ -295,6 +315,10 @@
       "name": "genesis-night-research",
       "version": "1.0.0",
       "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
         {
           "path": ".gitignore",
           "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c"
@@ -354,6 +378,10 @@
       "version": "1.0.0",
       "files": [
         {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
+        {
           "path": ".gitignore",
           "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c"
         },
@@ -411,6 +439,10 @@
       "name": "genesis-review-gate",
       "version": "1.0.0",
       "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
         {
           "path": ".gitignore",
           "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657"
@@ -470,6 +502,10 @@
       "version": "1.0.0",
       "files": [
         {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
+        {
           "path": ".gitignore",
           "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657"
         },
@@ -527,6 +563,10 @@
       "name": "genesis-prompt-kit",
       "version": "1.0.0",
       "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+        },
         {
           "path": ".gitignore",
           "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657"
