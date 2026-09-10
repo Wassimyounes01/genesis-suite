@@ -1,0 +1,12 @@
+{
+  "name": "genesis-context-graph",
+  "node": ">=20",
+  "exports": { "ContextGraph": "class", "createContextGraph": "function", "digest": "function", "tokens": "function" },
+  "integration": {
+    "constructor": "{stateDir: required caller-supplied directory, sourceRoot: required caller-supplied directory}",
+    "card": "{id,task:{id,label,domain},artifact:{path,sha256},attributes:[{id,label,mechanism,tags,appliesTo,contraindications,evidence?}],approval?:{messageRef,receipt:{path,sha256}}}; approval receipt binds quote, artifactSha256 and attributeIds",
+    "query": "query({goal,attributes?,domain?,constraints?},{limit?})",
+    "candidate": "revalidateCandidate(candidate,request?)"
+  },
+  "limitations": ["Approval receipts are caller-supplied evidence and do not prove external account identity.", "Matching is bounded and target transfer remains a hypothesis until target checks pass."]
+}

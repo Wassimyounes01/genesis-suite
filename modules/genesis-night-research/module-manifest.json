@@ -1,0 +1,16 @@
+{
+  "name": "genesis-night-research",
+  "node": ">=20",
+  "exports": {
+    "policy": "frozen default America/New_York 21:00-08:00 policy",
+    "THEMES": "small offline questions",
+    "nightWindow": "(epochMs, timezone) -> DST-aware bounded window",
+    "status": "options -> gate and budgets",
+    "runPass": "{ stateDir, worker, now?, isPaused?, isGaming? } -> one bounded report",
+    "parseCandidate": "worker JSON/object -> bounded unverified candidate",
+    "setPaused": "{ stateDir } -> caller-owned pause flag"
+  },
+  "workerSchema": "async ({ passId, question, maxSources, signal, deadlineMs }) -> { ok, value|text, actualModel?, monetaryCost? }",
+  "limits": { "workerBudget": 1, "sourceDefault": 3, "passDefault": 6, "promotion": "never automatic" },
+  "integration": "The caller supplies stateDir, worker, pause callback, and gaming callback. No scheduler, installation, promotion, or external tool is started."
+}

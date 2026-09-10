@@ -1,0 +1,7 @@
+{
+  "name": "genesis-plan-graph",
+  "node": ">=20",
+  "exports": { "PlanGraph": "class", "createPlanGraph": "function", "validateGraph": "function", "ownershipOverlaps": "function" },
+  "integration": { "node": "{id, task, dependsOn[], owns[], readOnly?, plannerDepth?}", "ready": "ready(completedIds[], runningIds[])", "capacity": "constructor option, positive integer" },
+  "limitations": ["Ownership is declarative and cannot prevent an external process from writing outside the scheduler.", "Graph state is in memory unless the caller serializes it."]
+}

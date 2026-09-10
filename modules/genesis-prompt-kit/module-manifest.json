@@ -1,0 +1,26 @@
+{
+  "name": "genesis-prompt-kit",
+  "node": ">=20",
+  "exports": {
+    "ORIGINAL_SYSTEM_PROMPT": "Public Genesis system template.",
+    "ORIGINAL_PROJECT_PROMPT": "Public Genesis project template.",
+    "SYSTEM_PROMPT": "Alias of ORIGINAL_SYSTEM_PROMPT.",
+    "PROJECT_PROMPT": "Alias of ORIGINAL_PROJECT_PROMPT.",
+    "ROLE_CONTRACTS": "Planner, worker and reviewer role contracts.",
+    "TEACHING_CONTRACT": "Pattern, invariant, counterexample and acceptance teaching contract.",
+    "TEMPLATES": "Named public template map.",
+    "TASK_CONTRACT_KEYS": "Exact task contract key list.",
+    "LIMITS": "Hard bounds for text, arrays and numeric budgets.",
+    "createTaskContract": "Build and strictly validate a task contract.",
+    "validateTaskContract": "Return {ok, errors} for the entire contract object.",
+    "validateContract": "Alias of validateTaskContract.",
+    "assertTaskContract": "Throw on any schema or bound violation.",
+    "renderPrompt": "Render system, project, role, teaching or task prompt text.",
+    "render": "Alias of renderPrompt.",
+    "renderTaskContract": "Render a validated task contract for a worker.",
+    "parseTaskContract": "Parse and validate JSON task-contract text."
+  },
+  "cli": "node index.cjs render <kind> [--role planner] or node index.cjs validate <contract.json>",
+  "limits": { "id": "120 characters and identifier characters", "text": "4000 characters", "arrays": "100 items, 1000 characters each", "maxAttempts": 100, "deadlineMs": 3600000, "maxOutputBytes": 10485760, "acceptance": "at least one check" },
+  "privacy": "No vendor prompts, private corpora, credentials, model weights or machine-specific paths are included."
+}

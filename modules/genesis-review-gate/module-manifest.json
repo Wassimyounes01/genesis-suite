@@ -1,0 +1,18 @@
+{
+  "name": "genesis-review-gate",
+  "node": ">=20",
+  "exports": {
+    "createReviewGate": "Create a configured gate exposing review(input, adapter).",
+    "reviewArtifact": "Run find/refute through one shared deadline and strict schemas.",
+    "validateFinding": "Validate a finding object.",
+    "validateFinderResponse": "Validate the complete finder response.",
+    "validateRefutation": "Require status refuted and a non-empty reason.",
+    "validateReviewResult": "Validate the entire public review result schema.",
+    "DEFAULTS": "Default input, output, finding and deadline limits.",
+    "HARD_LIMITS": "Absolute safety bounds for caller-supplied limits."
+  },
+  "adapter": { "find": "async ({artifact, artifactId, deadlineAt, signal}) => {provider, findings}", "refute": "async ({artifact, artifactId, finding, deadlineAt, signal}) => {status:'refuted', reason}" },
+  "errors": ["provider", "partial", "timeout", "oversized", "aborted"],
+  "validatorBounds": { "artifactId": 120, "providerField": 200, "findingText": 4000, "errors": 20 },
+  "integration": "Inject a provider adapter; this package never starts a service or calls a model."
+}

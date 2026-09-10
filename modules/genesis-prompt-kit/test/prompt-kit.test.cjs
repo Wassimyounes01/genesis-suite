@@ -1,0 +1,9 @@
+'use strict';
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const { ORIGINAL_SYSTEM_PROMPT, ORIGINAL_PROJECT_PROMPT, createTaskContract, validateTaskContract, renderPrompt, renderTaskContract } = require('../index.cjs');
+test('original templates preserve audited public invariants', () => { assert.match(ORIGINAL_SYSTEM_PROMPT, /authorized outcome/); assert.match(ORIGINAL_SYSTEM_PROMPT, /model weights/); assert.match(ORIGINAL_PROJECT_PROMPT, /acceptance evidence/); assert.doesNotMatch(`${ORIGINAL_SYSTEM_PROMPT} ${ORIGINAL_PROJECT_PROMPT}`, /vendor prompt|credential|private path/i); });
+test('renders a strict task contract', () => { const contract = createTaskContract({ id: 'packet-1', objective: 'Check the fixture', owner: 'worker', outputs: ['receipt'], acceptance: ['node --test passes'], stopCondition: 'Stop after the check.' }); assert.equal(validateTaskContract(contract).ok, true); assert.match(renderPrompt('task', contract), /Task packet-1/); assert.match(renderTaskContract(contract), /Acceptance/); });
+test('rejects unknown keys and missing acceptance checks', () => { const contract = createTaskContract({ id: 'packet-2', objective: 'x', owner: 'worker', acceptance: ['x'], stopCondition: 'done' }); assert.equal(validateTaskContract({ ...contract, extra: true }).ok, false); assert.equal(validateTaskContract({ ...contract, acceptance: [] }).ok, false); });
+test('role and teaching rendering are bounded to known contracts', () => { assert.match(renderPrompt('role', { role: 'reviewer' }), /immutable acceptance contract/); assert.match(renderPrompt('teaching'), /counterexample/); assert.throws(() => renderPrompt('role', { role: 'unknown' }), /role/); });
+test('contract budget has positive bounded integers', () => { assert.throws(() => createTaskContract({ id: 'x', objective: 'x', owner: 'x', acceptance: ['x'], stopCondition: 'x', budget: { maxAttempts: 0 } }), /positive integer/); });

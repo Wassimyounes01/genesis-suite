@@ -1,0 +1,25 @@
+{
+  "name": "genesis-prompt-kit",
+  "version": "1.0.0",
+  "description": "Turn an objective into teachable, verifiable task contracts.",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.cjs",
+    "render": "node index.cjs"
+  },
+  "license": "MIT",
+  "author": "Genesis Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wassimyounes01/genesis-prompt-kit.git"
+  },
+  "homepage": "https://github.com/Wassimyounes01/genesis-prompt-kit#readme",
+  "bugs": {
+    "url": "https://github.com/Wassimyounes01/genesis-prompt-kit/issues"
+  }
+}

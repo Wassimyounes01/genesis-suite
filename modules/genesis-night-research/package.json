@@ -1,0 +1,24 @@
+{
+  "name": "genesis-night-research",
+  "version": "1.0.0",
+  "description": "Run a single research pass within time and resource limits.",
+  "main": "index.cjs",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.cjs"
+  },
+  "license": "MIT",
+  "author": "Genesis Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wassimyounes01/genesis-night-research.git"
+  },
+  "homepage": "https://github.com/Wassimyounes01/genesis-night-research#readme",
+  "bugs": {
+    "url": "https://github.com/Wassimyounes01/genesis-night-research/issues"
+  }
+}

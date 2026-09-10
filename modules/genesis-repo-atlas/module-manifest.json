@@ -1,0 +1,15 @@
+{
+  "name": "genesis-repo-atlas",
+  "node": ">=20",
+  "exports": {
+    "scan": "{ roots: string[], maxEntries?, maxMetadataBytes?, outputPath?, provenance? } -> bounded metadata census",
+    "checkProvenance": "{ root, registryPath?, pointerPath?, licenseFiles? } -> contained registry/pointer/license checks",
+    "contained": "lexical path containment predicate",
+    "containedPath": "symlink-aware path containment predicate",
+    "extractPointer": "pointer record -> relative target",
+    "extractRegistryEntries": "registry record -> entry array"
+  },
+  "entrySchema": { "rootId": "sanitized root label", "path": "root-relative path", "kind": "directory|file|symlink|other", "bytes": "metadata size", "mtimeMs": "metadata timestamp" },
+  "limits": { "defaultMaxEntries": 10000, "defaultMaxMetadataBytes": 2097152, "checkFileBytes": 65536, "symlinks": "recorded and never traversed" },
+  "integration": "Callers provide explicit roots. The result says metadata-only and makes no semantic-all-files claim."
+}

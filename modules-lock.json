@@ -1,0 +1,589 @@
+{
+  "schema": "genesis-modules-lock/1",
+  "modules": [
+    {
+      "name": "genesis-task-ledger",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "0ef562c356fe7824f7df6c541219832a1364c933c1c552abf735c60fca24220e"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "98fb7d64ef11513f1eb6a9e8bbbb6f113195c7ca1c0cf78fb58de339c1899800"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "e09d2a14967c8a76308dd38a23bf8470bf2899072644aab4b78b506b7b30c28d"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "a7140b3e9c9b9b8475a3150e912b0d62c24ee9627d15071b17556313b7c74ed0"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "3bc94cfde7a7be149252169898ac43befe06f62fe4a3e3b052be5fca524a5cf0"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "c9bb61a9c8a510e3c0616bbc1a033267650ef6f160dc44be6aafc346ac02a027"
+        },
+        {
+          "path": "package.json",
+          "sha256": "cc7cf6a85a885493c064eb78e31654a3a3ddcd2305268de156cdf62ea6bc26dc"
+        },
+        {
+          "path": "README.md",
+          "sha256": "7b916fa1ac8984d23bf28ca2f4d53130583dce2a220dc61c4bdbcea10cdb644c"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/ledger.test.cjs",
+          "sha256": "709cf3ef60bb3c1826945d8d259142135d44fd280fef91d095bd50acececa802"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "1ade6a8cfe7dadb8d8e7825da41fa74962ad70f965c527e28de41005760db874"
+        }
+      ]
+    },
+    {
+      "name": "genesis-plan-graph",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "108d2b818b63d1f2ffaefee13455961edf1544f49ccf847396de3e85eb5ad724"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "c8144c97c404975e0fa20fa833f92ba614b778bf54c2df54c4ea82ff4798dc9d"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "3a5da9242f9a20b59465a6cb1ac272493deadfe38e27a97f27c4ddb903f32564"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "b4d9c89caa7ba694ac088d501bed36ea2e37c37a4c0423f1edb566eee56556a9"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "c47e774275aa93c9c0d99aaf24b574ac38c9f2aa65c4bf0f8c801341486feb2d"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "0c6faea4c953c61ae24f18fba2612396b7ff4ab38534f927fa30982952294e2e"
+        },
+        {
+          "path": "package.json",
+          "sha256": "ff79e03e3a67b31f422b7f75d96eee892f15d65dec70da8eda9754e2f10799c9"
+        },
+        {
+          "path": "README.md",
+          "sha256": "e3ba000bd470c411334b3c5311a0a66320fc6fc5e04e0c2ed78e410072a8df01"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/plan-graph.test.cjs",
+          "sha256": "eacc3820ed097695af2712a452a8a0fae3b24b6e6092dcf2c1dfdb8d531e4e03"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "60a680016b09ba3623afa647ccbeec1b2523374e38e16071f32f5625d9a0b11b"
+        }
+      ]
+    },
+    {
+      "name": "genesis-task-adaptation",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "f0a5367d32d90e1c053e0c9558bf9cdb8ef3de0b29159c7968cdfa0757dc2450"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "5daad41cb93f17a22956895d166da86d40bb4445986d993d0f3dad04f770f626"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "97befc473f7bd9b833f64701e172ae64a02c5baa53e0b288dd8da21893f09ed9"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "d6dce69982d1922e1220aff7d7f1616574eddaa33d4a059bcf2af8b479c4c2ae"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "304520c5ce36cf0f2d2271d1f034711cb0d241ce6a5bcc937f5bfbd3ac7b68e4"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "88f827d4bd61d59f3fbbb0cff740aef4ef591aca4b445942316c7381fdd14b40"
+        },
+        {
+          "path": "package.json",
+          "sha256": "23e3e6a00e170b4fe05d91476e30ce7831dbd8bbc09058f07f7a96cfbcc2a7c1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "98aeb05263cc6fe003f8ca880ffc14b9f560ccd2129a53cd306b62f6d8e98d35"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/adaptation.test.cjs",
+          "sha256": "b55b43887773451196a89adc314232f1c613ba4e7e2f029718b23b348df88c09"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "96c85d991fac7c8b43a3d5429c42a0bcd4ed8d44dcccfccc3a56ea3244ee7b7f"
+        }
+      ]
+    },
+    {
+      "name": "genesis-context-graph",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "7c3a1265ee6395eb004769e5123a2f060c59f2aec6b35cfb735634519c4f5515"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "6173e7fc0eb7d852913c8dfdded474875cbe6b97b44910edc10ded547e4d810d"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "42b42f6bede151f5965e230071e08fdb4689f9f648a9232b3d5a7977cdb820c3"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "36f243282a201814268b2e02651ff071bc91513b9577fd25dd9f0e16083124d4"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "1064320daea3e28c6b0080a221f809d45be8733beb6c6f70c20ed417507944fe"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "31e21b139336b7bebdab2fe8473fa01c870cb3dc8abd3c95661cc4bd543e9b7a"
+        },
+        {
+          "path": "package.json",
+          "sha256": "57ebedaf36bc57d2a97343c9e2ea92b6311de1df570f6e293e9d70919d5c3201"
+        },
+        {
+          "path": "README.md",
+          "sha256": "3de60d9aedfaa961a20c8fa0c271c86f62ab48bb515a075e3c1c790b7d971be3"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/context.test.cjs",
+          "sha256": "d07e9d5c8020e9a7e034a49f34578b855f026f3ca0a0fcc6229c2e2bd50e59ae"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "476fa0505fbd4517ddf113320bdcfe3ed0ccbe9ab351214e1afd9c416bff8546"
+        }
+      ]
+    },
+    {
+      "name": "genesis-worker-router",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "6800cb1cf4771f84d7bf9302bdf9c5a7b57cb98de8f428255c1cf23b7cceb729"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "4902d48e649938c546e8c607b3c803c3ffe016d9672cc17394c68b817d925cdd"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "c6bd483223c9488a82413b580160494de15dc5e0c0945c321c78f57b5874bffe"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "b2d5b955b652d280edd897be4e51a34f59c61762ee287ad8294ce20d1422d033"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "a1a607ad8e5c76263cd594a8cb8e5c0cfcd02bec9582bdfde364618a865b899c"
+        },
+        {
+          "path": "package.json",
+          "sha256": "2492ea9ebdc364ea1754519123072a124e83b59f95aef68a038b63a8f8f51d26"
+        },
+        {
+          "path": "README.md",
+          "sha256": "c556f9adc3cdde575ce3136e0c5bb49338caa2db27d2f32e68409ef0ab26a1b4"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/router.test.cjs",
+          "sha256": "ae5a956a92a11b5940aa2fa0e39ab2beb86164eee07cdadfa59b4e5234b55f1f"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "45eeb7ed7bec7d88137f319d2013f542a446833f8cbe93132eb172cd6869dd04"
+        }
+      ]
+    },
+    {
+      "name": "genesis-night-research",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "af92d436cbcadfe67cac4c55ea01afbada040fa10ecb053c17f0d928298ae82d"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "992b5918dad01442683f58c59a7b2602d57210e8d180e5817663a5d0bd84aa96"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "111b265f749cd7be4fa3926e63b54ca041e2b94db9d391da01f6d507ce718ec9"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "523dc64aa1e99f8d991d468d0883c203620ca7d7a4a582039ba246f8b2ec68d8"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "ad204290e98dfd04ffdf03c9c458e8820381e958a6eb129d7e6dc4befbdbd1a9"
+        },
+        {
+          "path": "package.json",
+          "sha256": "5144795818568b659d185f2c11747173f4393df97ef4b51b2b7ab5addc14dc11"
+        },
+        {
+          "path": "README.md",
+          "sha256": "b69cc06d06589aac285006e557c6492dad5e4b03d9877baef5d9d5570a99feed"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/night-research.test.cjs",
+          "sha256": "dd77cf21d644c5fe94812b59dca7f361da9a8e33be7d99c07c063d84f6e009a5"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "94bfda350b4f02269b8348298a97392ce6d4c2ca1f6830ad6b3a358a127af271"
+        }
+      ]
+    },
+    {
+      "name": "genesis-repo-atlas",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "4f0ace53b594394aa2fe691117451b8e720f2e45ded894bce39fbc3fced918dd"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "cf11ef2144eae26d383dd500358915a0b68898b2d0e88e806cb4c0bfaaa353f6"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "a90c01716762f2d52ce3c4f8a9046cca5056a85033d38a516c760733a9fb234b"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "1fe17b4e892ea85b80cf0aa005dff82db08ef60d89c8c2a3e568f4aa6ecf5c17"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "285676db8a38997f72c17c7b7b1d6af9646b7114bd1d89c89661ee5d7f4aec29"
+        },
+        {
+          "path": "package.json",
+          "sha256": "3d59e52b67bddf2abfb2fde79d7a158b010df0ce6b6a6ce7aa7896e53906e537"
+        },
+        {
+          "path": "README.md",
+          "sha256": "1d914769ee60e93371e6a145ed125e3bead44c7ddd1fd515e43ecaf7adcfc58b"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/repo-atlas.test.cjs",
+          "sha256": "32e645f8cc1c5b95af20d025a576197a8addb951006d2f5828381900ed753cee"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "5f4bc15578df09c0ff479e96db14127af044eddfd9e84a29af724c3c9147b9e5"
+        }
+      ]
+    },
+    {
+      "name": "genesis-review-gate",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "aaffe53277206027243b63c541b23fa7da37d9b9bb33ad3a2f37cb62f7a5b006"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "f3eb309266fcd7c30e0283cb4b3e0b58b5ae03578925a691ca09e437686c7645"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "b00237889cfb0d45fbc54b892ddae93743886fec8360350b66b0084f9f68c557"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "e4f53a9febd9f99bd85021ae98ba54ac573535c2c4a7140ea9cb293dd4a56698"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "624af8b852fe7d2a784d98cfaca23b62d79fa0d66dd6c0c9ac61923dba79becd"
+        },
+        {
+          "path": "package.json",
+          "sha256": "de5c7aa584046af5e7afdc877c6409965883b4364a2fd041317a781ce1539553"
+        },
+        {
+          "path": "README.md",
+          "sha256": "705287a99301486995bbcb95b1d5d07cdd3f5ded7707f230950beffb7d594f25"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/review-gate.test.cjs",
+          "sha256": "72b33a492cb3c7ab60531c0d49f35f352eae9e7333ef6607c652581323b5f7b7"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "08c82c9261e5f864d70be90f989238a8fcff69353cc590ea71fb9dd156d5ca72"
+        }
+      ]
+    },
+    {
+      "name": "genesis-charter-lab",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "bf50d1041b5779df203f61e0092f536606a51701b17f9ac0c8980a41e0c94047"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "527b719351f8d111d53f113094a4a997edc7035a6d7dfcf0905a94274d482d83"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "2b970d2e0453cbaf43a2b9fed4727de51f70a908db807ed456b29f2e83de82b0"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "73f6442819e75ef922363af90eff952ddd0dd2ebb99a706ed6bda4670c1396d1"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "ebc5a0266d110c304f6f32b824b262771068536ad2efbb29576df907b7b9068b"
+        },
+        {
+          "path": "package.json",
+          "sha256": "52473a6b8b6a70dcceea64c37e0ff9b9971672aa810671c9b33c89ba99e2bb9a"
+        },
+        {
+          "path": "README.md",
+          "sha256": "bf12a9f680a935521faa4e0f6df7fcbed802a3c3ce71195264c08406533a5dbc"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/charter-lab.test.cjs",
+          "sha256": "9d5e39f16dde79d534165e50d83ed560068711d9aab9c867a44a3c1c46648583"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "8edb37e09f692b475bfa7aa03569ff82c835ed07cb38f5b7323e9321b6e36f20"
+        }
+      ]
+    },
+    {
+      "name": "genesis-prompt-kit",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitignore",
+          "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657"
+        },
+        {
+          "path": "CHANGELOG.md",
+          "sha256": "b9a013b5a388e9f61ddc8324c327737d6934212d39851083133b6c9e764d6513"
+        },
+        {
+          "path": "CONTRIBUTING.md",
+          "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "1bce667271d5ab918a346c33e519cecc8f18bba7a8b51901a8afa531de90c4f0"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "75966c292bc13f9e9478e31f6d8c402e2778881e69be0dbeac01cee1d87c5a3c"
+        },
+        {
+          "path": "GENESIS.md",
+          "sha256": "7759430872c34de124fa3c277db69c1203b2a47905c0e5f940721377d21bab50"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "5dda808d5ae32a28068cdc843eb7987144f05379b16ae49261974537918b7d0f"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "module-manifest.json",
+          "sha256": "38e39ca218cde35ee08efb78cc244fd96bed46013a5c9182411bb3700f7ffaf7"
+        },
+        {
+          "path": "package.json",
+          "sha256": "6f4e68481411bd490494847fa2c47dc0d543d66b520d21293b16f6bb553062d1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "347bdc182a4ef2ab6ce32f4d6290c50bcd73f9ccbfd65c2b3bcde1e10b9f4a62"
+        },
+        {
+          "path": "SECURITY.md",
+          "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6"
+        },
+        {
+          "path": "test/prompt-kit.test.cjs",
+          "sha256": "f5beb17319dd17961c8b9861665449fff0d28157c6d90e6e75ea70edf36772b6"
+        },
+        {
+          "path": "VERIFICATION.md",
+          "sha256": "9ddc3b884384df717efcd6054b76be14778a5e875db08e1d9301b5395b53a4dc"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "genesis-charter-lab",
+  "node": ">=20",
+  "exports": {
+    "createCharterLab": "Create a state-dir-scoped charter workflow; stage returns hash and version (same SHA-256 value).",
+    "evidenceDigest": "Compute the SHA-256 digest over candidate, baseline, task, split, metric, preregistered gain, paired scores, regressions, token counts, artifactId, currentHash and measuredAt.",
+    "BASELINE_CHARTERS": "Public planner and worker baseline text.",
+    "EVALUATOR_RULES": "Frozen promotion rules; candidates cannot mutate them."
+  },
+  "workflow": ["stage", "preregister", "recordEvidence", "promote", "rollback"],
+  "promotion": "Three distinct train tasks and one separate holdout, each with preregistered measured benefit, zero regressions and a second independent verifier pass.",
+  "verifyEvidence": "Required injected callback. Input receipt contains candidateHash, baselineHash, taskId, split, metric, minimumRelativeGain, artifactId, currentHash, measuredAt and computed proofDigest; return {ok:true, proofDigest, artifactId, currentHash, independentReview:true}.",
+  "limits": { "candidates": 100, "preregistrations": 2000, "evidence": 2000, "history": 2000, "stateBytes": 1048576, "evidenceFreshnessMs": 2592000000, "metric": 1000000000, "counter": 1000000 },
+  "state": "Caller supplies stateDir; state is JSON and never reads a credential store or workspace path."
+}
