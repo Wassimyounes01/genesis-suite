@@ -1,4 +1,4 @@
-![Repo Atlas](docs/cover.svg)
+![Repo Atlas](docs/cover.svg?design=2)
 
 # Genesis Repo Atlas
 

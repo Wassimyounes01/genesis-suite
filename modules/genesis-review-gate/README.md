@@ -1,4 +1,4 @@
-![Review Gate](docs/cover.svg)
+![Review Gate](docs/cover.svg?design=2)
 
 # Genesis Review Gate
 

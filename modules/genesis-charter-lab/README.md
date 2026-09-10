@@ -1,4 +1,4 @@
-![Charter Lab](docs/cover.svg)
+![Charter Lab](docs/cover.svg?design=2)
 
 # Genesis Charter Lab
 

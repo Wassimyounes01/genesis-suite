@@ -1,4 +1,4 @@
-![Night Research](docs/cover.svg)
+![Night Research](docs/cover.svg?design=2)
 
 # Genesis Night Research
 
