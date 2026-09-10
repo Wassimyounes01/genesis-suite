@@ -7,3 +7,14 @@ test('renders a strict task contract', () => { const contract = createTaskContra
 test('rejects unknown keys and missing acceptance checks', () => { const contract = createTaskContract({ id: 'packet-2', objective: 'x', owner: 'worker', acceptance: ['x'], stopCondition: 'done' }); assert.equal(validateTaskContract({ ...contract, extra: true }).ok, false); assert.equal(validateTaskContract({ ...contract, acceptance: [] }).ok, false); });
 test('role and teaching rendering are bounded to known contracts', () => { assert.match(renderPrompt('role', { role: 'reviewer' }), /immutable acceptance contract/); assert.match(renderPrompt('teaching'), /counterexample/); assert.throws(() => renderPrompt('role', { role: 'unknown' }), /role/); });
 test('contract budget has positive bounded integers', () => { assert.throws(() => createTaskContract({ id: 'x', objective: 'x', owner: 'x', acceptance: ['x'], stopCondition: 'x', budget: { maxAttempts: 0 } }), /positive integer/); });
+
+test('repository profile is available through both API and offline CLI', () => {
+  const { spawnSync } = require('node:child_process');
+  const path = require('node:path');
+  const rendered = renderPrompt('repository');
+  const result = spawnSync(process.execPath, [path.join(__dirname, '../index.cjs'), 'render', 'repository'], { encoding: 'utf8', timeout: 5000, windowsHide: true });
+  assert.equal(result.status, 0);
+  assert.equal(result.stdout.trim(), rendered.trim());
+  assert.match(rendered, /Acceptance rubric:/);
+  assert.throws(() => renderPrompt('repository-unknown'), /kind must be/);
+});

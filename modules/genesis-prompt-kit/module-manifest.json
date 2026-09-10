@@ -15,12 +15,20 @@
     "validateTaskContract": "Return {ok, errors} for the entire contract object.",
     "validateContract": "Alias of validateTaskContract.",
     "assertTaskContract": "Throw on any schema or bound violation.",
-    "renderPrompt": "Render system, project, role, teaching or task prompt text.",
+    "renderPrompt": "Render system, project, role, teaching, repository or task prompt text.",
     "render": "Alias of renderPrompt.",
     "renderTaskContract": "Render a validated task contract for a worker.",
     "parseTaskContract": "Parse and validate JSON task-contract text."
   },
   "cli": "node index.cjs render <kind> [--role planner] or node index.cjs validate <contract.json>",
-  "limits": { "id": "120 characters and identifier characters", "text": "4000 characters", "arrays": "100 items, 1000 characters each", "maxAttempts": 100, "deadlineMs": 3600000, "maxOutputBytes": 10485760, "acceptance": "at least one check" },
+  "limits": {
+    "id": "120 characters, non-empty",
+    "text": "4000 characters",
+    "arrays": "100 items, 1000 characters each",
+    "maxAttempts": 100,
+    "deadlineMs": 3600000,
+    "maxOutputBytes": 10485760,
+    "acceptance": "at least one check"
+  },
   "privacy": "No vendor prompts, private corpora, credentials, model weights or machine-specific paths are included."
 }

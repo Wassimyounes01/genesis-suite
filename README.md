@@ -4,6 +4,10 @@
 
 Connect planning, bounded workers, live task adaptation and review evidence in one portable toolkit.
 
+**Dependency-aware execution · Fresh evidence for acceptance · Explicit resource limits**
+
+[Why use it](#why-use-it) · [Quickstart](#try-it-in-five-minutes) · [Choose a component](#ten-focused-systems-one-connected-suite) · [Prompt foundations](modules/genesis-prompt-kit/docs/FOUNDATIONS.md) · [Boundaries](#boundaries)
+
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-5FA04E?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-a7f3d0.svg)](LICENSE)
 [![Offline demo](https://img.shields.io/badge/demo-offline-93c5fd)](examples/demo.cjs)
@@ -11,6 +15,22 @@ Connect planning, bounded workers, live task adaptation and review evidence in o
 Genesis separates a task's original acceptance contract from its evolving implementation. Workers can propose changes during execution. Checks and independent review bind acceptance to the exact artifact bytes. Feedback creates reusable candidates; measured benchmarks decide whether a public role instruction should be promoted.
 
 This repository contains all ten component packages, plus an integrated runner. A fresh clone runs without installing dependencies, configuring a model or starting a service.
+
+## Why use it
+
+An agent returns a file and says the task is complete. Then feedback changes that file, a dependency is rebuilt, or the reviewer returns only half a result. A plain success flag cannot explain whether the current output still qualifies. Genesis keeps the original task criteria separate from changing artifacts and requires current evidence at acceptance.
+
+Use the suite when your application needs several of these controls together: dependent tasks, bounded worker calls, feedback during execution and inspectable completion evidence. It is intended for developers integrating agent workflows, not a hosted agent service. If you only need a dependency graph or a prompt template, choose the standalone component below. A small script with one deterministic operation may not need this machinery.
+
+| Baseline workflow | Genesis behavior | Practical benefit |
+| --- | --- | --- |
+| Save a worker's `done` flag | Require checks and review bound to current artifacts | Trace why an output was accepted |
+| Retry with a fresh timeout each time | Share a bounded deadline across attempts | Keep failure recovery within a declared budget |
+| Edit requirements in the middle of a run | Record accepted revisions and require fresh checks | Preserve the original standard while adapting |
+| Copy a prior solution as already approved | Retrieve a source-backed candidate and test its applicability | Reuse without inventing target success or user approval |
+| Promote instructions because one example looks good | Stage a charter and require paired evidence with a holdout | Make changes reviewable and reversible |
+
+These are comparisons with the explicitly described baseline behaviors, not benchmark results against other frameworks. The modules make workflow conditions inspectable; they do not guarantee better model output.
 
 ## Try it in five minutes
 
@@ -25,24 +45,14 @@ The demo uses an explicitly labeled offline worker and deterministic review fixt
 
 ## How the pieces connect
 
-```mermaid
-flowchart LR
-    P[Prompt Kit] --> G[Plan Graph]
-    A[Repo Atlas] --> C[Context Graph]
-    C --> G
-    G --> W[Worker Router]
-    W --> R[Review Gate]
-    R --> L[Task Ledger]
-    L --> C
-    F[Task Adaptation] --> G
-    W --> F
-    L --> F
-    N[Night Research] --> C
-    L --> H[Charter Lab]
-    H --> P
-```
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/flow-compact.svg">
+  <img src="docs/flow.svg" alt="Plan a contract and dependency graph, execute a bounded worker, verify checks and review, then record evidence and reusable candidates">
+</picture>
 
-The arrows describe explicit application calls. No background graph watcher, self-triggering agent swarm or model-weight training runs on import.
+The primary path has four stages. **Prompt Kit and Plan Graph** define the work; **Worker Router** dispatches it; application checkers and **Review Gate** examine it; **Task Ledger** records qualifying evidence. **Task Adaptation** can reopen affected work when accepted feedback changes the path. The integrated runner currently executes one task at a time; the planning graph is not a claim of parallel suite execution.
+
+The supporting paths are explicit: **Repo Atlas** helps locate sources; **Context Graph** retrieves reusable candidates; **Night Research** runs a separately invoked bounded pass; **Charter Lab** evaluates public instruction changes. A research finding does not automatically promote a charter. No background graph watcher or model-weight training runs on import.
 
 ## Ten focused systems, one connected suite
 
@@ -69,11 +79,15 @@ Standalone repositories have their own examples and tests. The `modules/` direct
 
 ## Integrate a real worker
 
+For a concrete failure example, run the [integration tests](test/integration.test.cjs). They change an artifact after checking it, introduce feedback during review and attempt a child task with stale parent evidence. Acceptance fails or the task becomes ineligible until fresh evidence exists. The successful offline path and these counterexamples explain the difference between producing an artifact and accepting its current version.
+
 See [the runner API](docs/API.md) and [the complete offline example](examples/demo.cjs). Providers, checkers and reviewers are injected by your application. The supplied session CLI adapter accepts an explicit executable and arguments; it does not guess an installed binary, purchase overage or select a hidden fallback.
 
 For Cursor Auto, configure the authenticated CLI installed on your machine and its documented read-only invocation. Provider versions and interfaces can differ. The generic adapter is available in `modules/genesis-worker-router`; verify your CLI command before connecting it to an automated task. The hosted desktop agent's own planner/model settings remain outside this library.
 
 ## Quality, feedback and cost
+
+The prompting foundation was informed in part by analysis of a supplied collection labeled as system-prompt leaks, followed by original templates and runtime controls. The labels are unverified and the collection is not shipped. Read the [foundation and pattern-to-code mapping](modules/genesis-prompt-kit/docs/FOUNDATIONS.md), the [reusable repository-design prompt](modules/genesis-prompt-kit/docs/REPOSITORY-DESIGN-PROMPT.md), and the [eleven-repository design trial](modules/genesis-prompt-kit/docs/DESIGN-TRIAL.md).
 
 A planner/reviewer profile is configuration, not a quality guarantee. An expensive model can still fail; a cheaper one can pass a carefully scoped task. Capture actual provider identity and usage when reported, include retries and review overhead in comparisons, and keep unknown costs unknown.
 

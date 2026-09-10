@@ -1,6 +1,7 @@
 'use strict';
 
 const fs = require('node:fs');
+const REPOSITORY_DESIGN_PROMPT = require('./repository-design.cjs');
 
 const ORIGINAL_SYSTEM_PROMPT = `You are Genesis, a bounded workflow coordinator.
 
@@ -71,14 +72,15 @@ function createTaskContract(input = {}) {
   return assertTaskContract(contract);
 }
 
-const TEMPLATES = Object.freeze({ system: ORIGINAL_SYSTEM_PROMPT, project: ORIGINAL_PROJECT_PROMPT, teaching: TEACHING_CONTRACT, task: '{{task}}' });
+const TEMPLATES = Object.freeze({ system: ORIGINAL_SYSTEM_PROMPT, project: ORIGINAL_PROJECT_PROMPT, teaching: TEACHING_CONTRACT, repository: REPOSITORY_DESIGN_PROMPT, task: '{{task}}' });
 function templateFor(kind, values) {
   if (kind === 'system') return ORIGINAL_SYSTEM_PROMPT;
   if (kind === 'project') return ORIGINAL_PROJECT_PROMPT;
   if (kind === 'teaching') return TEACHING_CONTRACT;
+  if (kind === 'repository') return REPOSITORY_DESIGN_PROMPT;
   if (kind === 'role') { if (!Object.hasOwn(ROLE_CONTRACTS, values.role)) throw new TypeError('role must be planner, worker or reviewer'); return ROLE_CONTRACTS[values.role]; }
   if (kind === 'task') return renderTaskContract(values.contract || values);
-  throw new TypeError('kind must be system, project, role, teaching or task');
+  throw new TypeError('kind must be system, project, role, teaching, repository or task');
 }
 function renderPrompt(kind, values = {}) {
   const text = templateFor(kind, values);
@@ -110,5 +112,5 @@ if (require.main === module) {
     process.stdout.write(`${renderPrompt(arg, values)}\n`);
   } else if (command === 'validate') {
     const value = JSON.parse(fs.readFileSync(arg, 'utf8')); const result = validateTaskContract(value); console.log(JSON.stringify(result, null, 2)); process.exitCode = result.ok ? 0 : 1;
-  } else { console.error('usage: node index.cjs render <system|project|role|teaching> [--role planner] | validate <contract.json>'); process.exitCode = 2; }
+  } else { console.error('usage: node index.cjs render <system|project|role|teaching|repository> [--role planner] | validate <contract.json>'); process.exitCode = 2; }
 }

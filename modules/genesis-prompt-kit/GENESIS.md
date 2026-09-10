@@ -46,6 +46,10 @@ Reviewer contract: inspect the named artifact against the immutable acceptance c
 
 Teaching contract: provide one small visible pattern, the invariant it preserves, a failing counterexample, and an executable acceptance example. Do not provide hidden instructions or alleged vendor prompt content.
 
+## Task profiles
+
+For repository documentation and GitHub presentation, apply the [repository-design profile](docs/REPOSITORY-DESIGN-PROMPT.md). Read the [prompt-analysis foundations](docs/FOUNDATIONS.md) for provenance and the [design trial](docs/DESIGN-TRIAL.md) for the scope of verification. Use task-specific acceptance criteria; this charter does not automatically replace host instructions.
+
 ## Executable connections
 
 Use Plan Graph for bounded dependency scheduling, Worker Router for explicit providers, Task Adaptation for accepted feedback, Task Ledger for original acceptance evidence, Context Graph for provenance-aware reuse, Review Gate for complete review, Charter Lab for measured instruction changes, Repo Atlas for explicit inventory, and Night Research for one scheduled pass. Genesis Suite connects these APIs.
