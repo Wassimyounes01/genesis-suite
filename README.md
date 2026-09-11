@@ -60,7 +60,7 @@ flowchart LR
 - [genesis-paired-experiments](modules/genesis-paired-experiments)
 - [genesis-batch-drafts](modules/genesis-batch-drafts)
 
-The [API guide](docs/API.md) documents the original integrated runner. The five added APIs remain explicit host integrations. [modules-lock.json](modules-lock.json) binds all twenty-one component inventories; [FILES.json](FILES.json) binds this complete release. [LOCAL-VERIFICATION.json](LOCAL-VERIFICATION.json) records local counts, while CI is configured for Linux and Windows.
+The [task workflow](GENESIS.md) explains proportional planning, focused context, draft reuse, batching and measured adaptation. The [API guide](docs/API.md) documents the integrated runner and all five additional API interfaces. These additions remain explicit host integrations. [modules-lock.json](modules-lock.json) binds all twenty-one component inventories; [FILES.json](FILES.json) binds this complete release. [Verification](VERIFICATION.md) records the release heads, local counts and completed CI scope.
 
 ## Limits
 
