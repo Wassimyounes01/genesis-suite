@@ -4,7 +4,7 @@
 
 Keep the failure that taught you how to fix it.
 
-**Node.js 20+ · Built-in modules only · MIT · No daemon or model account required**
+**Node.js 22.23.2 / 24.14.0 · Built-in modules only · MIT · No daemon or model account required**
 
 [Why use it](#why-use-it) · [Quickstart](#quickstart) · [API and examples](#api-and-examples) · [Limits](#limits)
 
@@ -58,7 +58,7 @@ Use this module independently or find it in the [Genesis Suite](https://github.c
 
 ## Limits
 
-Supports explicit named Node TAP checks. A useful reproducer must be authored and executed; this module does not generate tests or authenticate the runner.
+Requires typed Node TAP check results from the supported Node.js 22.23.2 or 24.14.0 lines. Node.js 20 output is intentionally rejected because it lacks the check-type metadata needed to distinguish suites from executed tests. A useful reproducer must be authored and executed; this module does not generate tests or authenticate the runner.
 
 Workflow memory and recorded lessons do not train model weights. No claim of doubled quality or 59–90% cost savings has been established by these fixtures. Paired accepted-task measurements are required before making a savings claim.
 

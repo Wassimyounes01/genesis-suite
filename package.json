@@ -1,11 +1,11 @@
 {
   "name": "genesis-suite",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "description": "Connect planning, execution, adaptation and evidence.",
   "main": "index.cjs",
   "engines": {
-    "node": ">=20"
+    "node": "^22.23.2 || ^24.14.0"
   },
   "scripts": {
     "test": "node scripts/test-all.cjs",

@@ -751,7 +751,7 @@
         },
         {
           "path": ".github/workflows/test.yml",
-          "sha256": "a705411915d03e013cb6c40cd0bcb967f801bf5f4fbb439a2899fb58ca6f3188"
+          "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414"
         },
         {
           "path": "test/index.test.cjs",
@@ -797,7 +797,7 @@
         },
         {
           "path": ".github/workflows/test.yml",
-          "sha256": "a705411915d03e013cb6c40cd0bcb967f801bf5f4fbb439a2899fb58ca6f3188"
+          "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414"
         },
         {
           "path": "test/index.test.cjs",
@@ -815,7 +815,7 @@
     },
     {
       "name": "genesis-regression-memory",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "files": [
         {
           "path": "index.cjs",
@@ -823,11 +823,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "29f6d4f17beed52735dc0b67d4006294daf3cbb6bc1e87a4cc8cc8927b1f9134"
+          "sha256": "577940fba9b050578287912d8bb62b76df337647de86ae52a8538f01ef4d520a"
         },
         {
           "path": "README.md",
-          "sha256": "4907d9d77b6359c09fb5edd89a91c037e2303bcdc90abc77d568acd4e61710b9"
+          "sha256": "d5274627d6fc78a5ff5791ac5c1f4005120f1aa77f4a56be62e71cb586033aac"
         },
         {
           "path": "LICENSE",
@@ -843,7 +843,7 @@
         },
         {
           "path": ".github/workflows/test.yml",
-          "sha256": "a705411915d03e013cb6c40cd0bcb967f801bf5f4fbb439a2899fb58ca6f3188"
+          "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414"
         },
         {
           "path": "test/index.test.cjs",
@@ -889,7 +889,7 @@
         },
         {
           "path": ".github/workflows/test.yml",
-          "sha256": "a705411915d03e013cb6c40cd0bcb967f801bf5f4fbb439a2899fb58ca6f3188"
+          "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414"
         },
         {
           "path": "test/index.test.cjs",
@@ -935,7 +935,7 @@
         },
         {
           "path": ".github/workflows/test.yml",
-          "sha256": "a705411915d03e013cb6c40cd0bcb967f801bf5f4fbb439a2899fb58ca6f3188"
+          "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414"
         },
         {
           "path": "test/index.test.cjs",
@@ -981,7 +981,7 @@
         },
         {
           "path": ".github/workflows/test.yml",
-          "sha256": "a705411915d03e013cb6c40cd0bcb967f801bf5f4fbb439a2899fb58ca6f3188"
+          "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414"
         },
         {
           "path": "test/index.test.cjs",

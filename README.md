@@ -8,7 +8,7 @@ Connect planning, bounded workers, live task adaptation and review evidence in o
 
 [Why use it](#why-use-it) · [Quickstart](#try-it-in-five-minutes) · [Choose a component](#sixteen-focused-systems-one-connected-suite) · [Prompt foundations](modules/genesis-prompt-kit/docs/FOUNDATIONS.md) · [Boundaries](#boundaries)
 
-[![Node.js](https://img.shields.io/badge/Node.js-20%2B-5FA04E?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-22.23.2%2B-5FA04E?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-a7f3d0.svg)](LICENSE)
 [![Offline demo](https://img.shields.io/badge/demo-offline-93c5fd)](examples/demo.cjs)
 
@@ -103,7 +103,7 @@ Use one writer per state directory unless an external lock is provided. Declare 
 
 ## Verification and contribution
 
-`npm test` runs each vendored component suite and the integration failures sequentially. `npm run demo` executes the offline flow. CI repeats both on Windows and Linux with Node.js 20 and 22. See [verification](VERIFICATION.md), [contribution guidance](CONTRIBUTING.md), and [trust boundaries](SECURITY.md).
+`npm test` runs each vendored component suite and the integration failures sequentially. `npm run demo` executes the offline flow. CI repeats both on Windows and Linux with Node.js 22.23.2 and 24.14.0. See [verification](VERIFICATION.md), [contribution guidance](CONTRIBUTING.md), and [trust boundaries](SECURITY.md).
 
 ## Six new task controls
 

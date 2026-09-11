@@ -1,10 +1,10 @@
 {
   "name": "genesis-regression-memory",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Keep the failure that taught you how to fix it.",
   "main": "index.cjs",
   "engines": {
-    "node": ">=20"
+    "node": "^22.23.2 || ^24.14.0"
   },
   "scripts": {
     "test": "node --test --test-reporter=tap test/index.test.cjs",

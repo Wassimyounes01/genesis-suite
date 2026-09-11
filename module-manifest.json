@@ -1,6 +1,6 @@
 {
   "name": "genesis-suite",
-  "node": ">=20",
+  "node": "^22.23.2 || ^24.14.0",
   "exports": {
     "createGenesis": "Create a caller-scoped integrated runner",
     "modules": "Sixteen standalone component APIs"
