@@ -6,7 +6,7 @@ Connect planning, bounded workers, live task adaptation and review evidence in o
 
 **Dependency-aware execution · Fresh evidence for acceptance · Explicit resource limits**
 
-[Why use it](#why-use-it) · [Quickstart](#try-it-in-five-minutes) · [Choose a component](#ten-focused-systems-one-connected-suite) · [Prompt foundations](modules/genesis-prompt-kit/docs/FOUNDATIONS.md) · [Boundaries](#boundaries)
+[Why use it](#why-use-it) · [Quickstart](#try-it-in-five-minutes) · [Choose a component](#sixteen-focused-systems-one-connected-suite) · [Prompt foundations](modules/genesis-prompt-kit/docs/FOUNDATIONS.md) · [Boundaries](#boundaries)
 
 [![Node.js](https://img.shields.io/badge/Node.js-20%2B-5FA04E?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-a7f3d0.svg)](LICENSE)
@@ -14,7 +14,9 @@ Connect planning, bounded workers, live task adaptation and review evidence in o
 
 Genesis separates a task's original acceptance contract from its evolving implementation. Workers can propose changes during execution. Checks and independent review bind acceptance to the exact artifact bytes. Feedback creates reusable candidates; measured benchmarks decide whether a public role instruction should be promoted.
 
-This repository contains all ten component packages, plus an integrated runner. A fresh clone runs without installing dependencies, configuring a model or starting a service.
+Adopt the [Genesis task workflow](GENESIS.md) in your project's operating instructions. It connects the components with proportional planning, real-time feedback and explicit evidence.
+
+This repository contains all sixteen component packages, plus an integrated runner. A fresh clone runs without installing dependencies, configuring a model or starting a service.
 
 ## Why use it
 
@@ -54,7 +56,7 @@ The primary path has four stages. **Prompt Kit and Plan Graph** define the work;
 
 The supporting paths are explicit: **Repo Atlas** helps locate sources; **Context Graph** retrieves reusable candidates; **Night Research** runs a separately invoked bounded pass; **Charter Lab** evaluates public instruction changes. A research finding does not automatically promote a charter. No background graph watcher or model-weight training runs on import.
 
-## Ten focused systems, one connected suite
+## Sixteen focused systems, one connected suite
 
 | Component | What it enables |
 | --- | --- |
@@ -102,3 +104,18 @@ Use one writer per state directory unless an external lock is provided. Declare 
 ## Verification and contribution
 
 `npm test` runs each vendored component suite and the integration failures sequentially. `npm run demo` executes the offline flow. CI repeats both on Windows and Linux with Node.js 20 and 22. See [verification](VERIFICATION.md), [contribution guidance](CONTRIBUTING.md), and [trust boundaries](SECURITY.md).
+
+## Six new task controls
+
+The suite now includes **16 component systems**. The original integrated runner is preserved; these six APIs are also exported through `modules` for explicit host integration. They do not silently change your worker route or production policy.
+
+| Component | Use when | Export |
+| --- | --- | --- |
+| [Source Packets](modules/genesis-source-packets) | Code review, bug investigation and bounded research that depends on local source. | `modules.sourcePackets` |
+| [Evidence Collector](modules/genesis-evidence-collector) | Task completion, CI evidence aggregation and audit preparation. | `modules.evidenceCollector` |
+| [Regression Memory](modules/genesis-regression-memory) | Reproducible defects, recurring integration failures and regression review. | `modules.regressionMemory` |
+| [Routing Metrics](modules/genesis-routing-metrics) | Worker selection experiments, retry analysis and token-cost baselines. | `modules.routingMetrics` |
+| [Change Impact](modules/genesis-change-impact) | Shared library changes, API documentation and downloadable release maintenance. | `modules.changeImpact` |
+| [Release Integrity](modules/genesis-release-integrity) | White-label source releases, sanitized examples and remote checkout verification. | `modules.releaseIntegrity` |
+
+Run `node examples/task-controls.cjs` for a bounded source → impact → release-integrity demonstration. The evidence collector assembles `genesis-check-v1` receipts for compatible hosts; it is not an automatic converter for the original suite ledger schema. Regression memory retains named Node TAP checks. Routing metrics require complete comparable observations before reporting savings. No quality multiplier or cost reduction is established by fixture tests.

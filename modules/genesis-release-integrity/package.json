@@ -1,0 +1,19 @@
+{
+  "name": "genesis-release-integrity",
+  "version": "1.0.0",
+  "description": "Publish an explicit, inspectable package of known bytes.",
+  "main": "index.cjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=tap test/index.test.cjs",
+    "demo": "node examples/demo.cjs"
+  },
+  "license": "MIT",
+  "author": "Genesis Contributors",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wassimyounes01/genesis-release-integrity.git"
+  }
+}
