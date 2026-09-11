@@ -43,7 +43,7 @@ The evaluator rules are public and frozen: allowed metrics are `quality` and `to
 The repository has no runtime dependencies. Node 20 or newer is required.
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-charter-lab.git
+git clone https://github.com/your-organization/genesis-charter-lab.git
 cd genesis-charter-lab
 npm test
 npm run demo
@@ -122,9 +122,9 @@ The tests cover hash-bound staging, preregistration requirements, three-train pl
 
 ## Related projects
 
-- [genesis-review-gate](https://github.com/Wassimyounes01/genesis-review-gate) produces strict artifact review receipts.
-- [genesis-prompt-kit](https://github.com/Wassimyounes01/genesis-prompt-kit) packages bounded prompt inputs.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) groups the public Genesis components.
+- [genesis-review-gate](https://github.com/your-organization/genesis-review-gate) produces strict artifact review receipts.
+- [genesis-prompt-kit](https://github.com/your-organization/genesis-prompt-kit) packages bounded prompt inputs.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) groups the public Genesis components.
 
 See [examples/demo.cjs](examples/demo.cjs), [index.cjs](index.cjs), and [test/charter-lab.test.cjs](test/charter-lab.test.cjs) for the runnable example and executable contract.
 

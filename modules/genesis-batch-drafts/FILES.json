@@ -1,0 +1,96 @@
+{
+  "schema": "genesis-local-release-inventory-v1",
+  "selfExcluded": "FILES.json cannot include its own hash.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "LOCAL-VERIFICATION.json",
+      "sha256": "344d22c586b770509228f29e017275883294afcae36ecaaec0599caabe9839f1",
+      "bytes": 581
+    },
+    {
+      "path": "README.md",
+      "sha256": "a95b8f17904ce321a8a6fe4d6b65e6a4b578a0c7040251f366c9b8ed0317d2f5",
+      "bytes": 2486
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "sha256": "bea85fe7f20724a741f3c61c021f0c843dbcea2126c71a46c700bc12b47271ba",
+      "bytes": 1135
+    },
+    {
+      "path": "docs/cover.svg",
+      "sha256": "aca7d1ccc2800589eeb1f6a00dbfa5e7923a7dcbfc6f872e85ef7292dbb80b11",
+      "bytes": 1348
+    },
+    {
+      "path": "examples/demo.cjs",
+      "sha256": "eee168dddd3df47346896d166aee5dbdc4b9ab7e8adc0b7990ead170b18eb1cb",
+      "bytes": 1406
+    },
+    {
+      "path": "examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "index.cjs",
+      "sha256": "3652aee0e6c61181835fcf68c91bdaae88a74d16b38309b1a015f18441759200",
+      "bytes": 72
+    },
+    {
+      "path": "lib/genesis-batch-drafts.cjs",
+      "sha256": "9c6332a8e69ce142e458942ffdc054aa276fdcc21a8b7664a032af8040eb0f9e",
+      "bytes": 24295
+    },
+    {
+      "path": "lib/genesis-constraint-compiler.cjs",
+      "sha256": "b2eee2746d294ad97ef0e9d14932764e5f9c4631c9f45b31a65ab97a5aa2bc3b",
+      "bytes": 14289
+    },
+    {
+      "path": "lib/genesis-source-packets.cjs",
+      "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d",
+      "bytes": 10731
+    },
+    {
+      "path": "lib/genesis-task-context.cjs",
+      "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635",
+      "bytes": 15288
+    },
+    {
+      "path": "package.json",
+      "sha256": "fc55703a796bad85440de905e4c425c1dae51d9f89a2c2182bbc6511c84cb77a",
+      "bytes": 469
+    },
+    {
+      "path": "scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "test/index.test.cjs",
+      "sha256": "a9c07c462e77bcb20c983ab190f8aea1c05b1be24207750d3f3beed1e29e8450",
+      "bytes": 26851
+    }
+  ]
+}

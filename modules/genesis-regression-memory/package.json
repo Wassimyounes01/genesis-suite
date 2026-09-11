@@ -11,9 +11,5 @@
     "demo": "node examples/demo.cjs"
   },
   "license": "MIT",
-  "author": "Genesis Contributors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wassimyounes01/genesis-regression-memory.git"
-  }
+  "author": "Genesis Contributors"
 }

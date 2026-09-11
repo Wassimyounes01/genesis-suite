@@ -32,7 +32,7 @@ Each node has an ID, task label, `dependsOn` IDs, and `owns` paths. Write nodes 
 ## Quickstart
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-plan-graph.git
+git clone https://github.com/your-organization/genesis-plan-graph.git
 cd genesis-plan-graph
 npm test
 npm run demo
@@ -79,8 +79,8 @@ The tests cover dependency-ready selection, disjoint ownership, cycles, missing 
 
 ## Related components
 
-- [genesis-task-ledger](https://github.com/Wassimyounes01/genesis-task-ledger) records criterion-bound checks and reviewed artifacts.
-- [genesis-task-adaptation](https://github.com/Wassimyounes01/genesis-task-adaptation) turns feedback into explicit revisions and rechecks.
-- [genesis-context-graph](https://github.com/Wassimyounes01/genesis-context-graph) finds current source-backed attributes for a target task.
-- [genesis-worker-router](https://github.com/Wassimyounes01/genesis-worker-router) applies deadlines, retries, account caps, and concurrency limits to injected providers.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) integrates the public modules.
+- [genesis-task-ledger](https://github.com/your-organization/genesis-task-ledger) records criterion-bound checks and reviewed artifacts.
+- [genesis-task-adaptation](https://github.com/your-organization/genesis-task-adaptation) turns feedback into explicit revisions and rechecks.
+- [genesis-context-graph](https://github.com/your-organization/genesis-context-graph) finds current source-backed attributes for a target task.
+- [genesis-worker-router](https://github.com/your-organization/genesis-worker-router) applies deadlines, retries, account caps, and concurrency limits to injected providers.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) integrates the public modules.

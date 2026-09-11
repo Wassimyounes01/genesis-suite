@@ -12,13 +12,5 @@
     "demo": "node examples/demo.cjs"
   },
   "license": "MIT",
-  "author": "Genesis Contributors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wassimyounes01/genesis-task-ledger.git"
-  },
-  "homepage": "https://github.com/Wassimyounes01/genesis-task-ledger#readme",
-  "bugs": {
-    "url": "https://github.com/Wassimyounes01/genesis-task-ledger/issues"
-  }
+  "author": "Genesis Contributors"
 }

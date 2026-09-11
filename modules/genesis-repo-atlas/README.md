@@ -41,7 +41,7 @@ The diagram represents `scan`: each explicit root is resolved as a real director
 The repository has no runtime dependencies. Node 20 or newer is required.
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-repo-atlas.git
+git clone https://github.com/your-organization/genesis-repo-atlas.git
 cd genesis-repo-atlas
 npm test
 npm run demo
@@ -104,9 +104,9 @@ The tests cover link skipping, root containment, output truncation, bounded JSON
 
 ## Related projects
 
-- [genesis-night-research](https://github.com/Wassimyounes01/genesis-night-research) produces bounded, unverified research candidates.
-- [genesis-review-gate](https://github.com/Wassimyounes01/genesis-review-gate) validates injected review findings and refutations.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) groups the public Genesis components.
+- [genesis-night-research](https://github.com/your-organization/genesis-night-research) produces bounded, unverified research candidates.
+- [genesis-review-gate](https://github.com/your-organization/genesis-review-gate) validates injected review findings and refutations.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) groups the public Genesis components.
 
 See [examples/demo.cjs](examples/demo.cjs), [index.cjs](index.cjs), and [test/repo-atlas.test.cjs](test/repo-atlas.test.cjs) for the runnable example and executable contract.
 

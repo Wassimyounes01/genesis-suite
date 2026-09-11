@@ -8,7 +8,7 @@ Original operating prompts, role contracts and a strict task schema for develope
 
 **Explicit acceptance · Teachable worker packets · Deterministic rendering**
 
-[![Node 20+](https://img.shields.io/badge/Node.js-20%2B-5FA04E)](https://nodejs.org/) [![MIT](https://img.shields.io/badge/license-MIT-f9a8d4)](LICENSE) [![Checks](https://github.com/Wassimyounes01/genesis-prompt-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/Wassimyounes01/genesis-prompt-kit/actions)
+[![Node 20+](https://img.shields.io/badge/Node.js-20%2B-5FA04E)](https://nodejs.org/) [![MIT](https://img.shields.io/badge/license-MIT-f9a8d4)](LICENSE) [![Checks](https://github.com/your-organization/genesis-prompt-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/your-organization/genesis-prompt-kit/actions)
 
 [Why use it](#why-use-it) · [Quickstart](#quickstart) · [Foundations](docs/FOUNDATIONS.md) · [Design prompt](docs/REPOSITORY-DESIGN-PROMPT.md) · [Limits](#limits)
 
@@ -32,14 +32,14 @@ Use it for repeated task types, planner-to-worker handoffs, or rejecting malform
   <img src="docs/flow.svg" alt="Define an outcome, validate the task contract, render the role and brief, then connect runtime checks">
 </picture>
 
-The renderer produces text; it does not execute the task. `validateTaskContract` checks the complete object, including unknown keys. `createTaskContract` builds the supported shape from supplied fields and defaults. [Genesis Suite](https://github.com/Wassimyounes01/genesis-suite) connects these briefs to bounded workers, checks and review evidence.
+The renderer produces text; it does not execute the task. `validateTaskContract` checks the complete object, including unknown keys. `createTaskContract` builds the supported shape from supplied fields and defaults. [Genesis Suite](https://github.com/your-organization/genesis-suite) connects these briefs to bounded workers, checks and review evidence.
 
 ## Quickstart
 
 Requires Node.js 20 or later. No dependency installation, account, model or service is needed for the examples.
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-prompt-kit.git
+git clone https://github.com/your-organization/genesis-prompt-kit.git
 cd genesis-prompt-kit
 npm test
 npm run demo
@@ -75,7 +75,7 @@ The brief includes the owner, inputs, outputs, acceptance, budget and stop condi
 
 - **A repository needs a better public page.** Render `repository`, supply the code and audience, and apply its content, visual and verification tracks. The [design profile](docs/REPOSITORY-DESIGN-PROMPT.md) was applied across the eleven Genesis repositories; its [trial record](docs/DESIGN-TRIAL.md) distinguishes checked structure from unmeasured user outcomes.
 - **A worker repeatedly misses an edge case.** Render the teaching contract and supply a minimal correct pattern, invariant and failing example. The acceptance task should exercise that failure, rather than asking the worker to “be more careful.”
-- **A multi-package change needs reliable handoffs.** Give each packet its own owner, dependencies and checks, then use [Plan Graph](https://github.com/Wassimyounes01/genesis-plan-graph) and [Suite](https://github.com/Wassimyounes01/genesis-suite) to connect the workflow.
+- **A multi-package change needs reliable handoffs.** Give each packet its own owner, dependencies and checks, then use [Plan Graph](https://github.com/your-organization/genesis-plan-graph) and [Suite](https://github.com/your-organization/genesis-suite) to connect the workflow.
 
 ## The foundation: analysis, adaptation, verification
 
@@ -93,6 +93,6 @@ No general quality advantage over other prompting systems has been benchmarked h
 
 [API and bounds](module-manifest.json) · [Template source](index.cjs) · [Behavioral tests](test/prompt-kit.test.cjs) · [Verification](VERIFICATION.md) · [Contributing](CONTRIBUTING.md) · [Security](SECURITY.md)
 
-Next: [Review Gate](https://github.com/Wassimyounes01/genesis-review-gate) for incomplete-review handling, [Charter Lab](https://github.com/Wassimyounes01/genesis-charter-lab) for measured instruction changes, or [Genesis Suite](https://github.com/Wassimyounes01/genesis-suite) for the connected workflow.
+Next: [Review Gate](https://github.com/your-organization/genesis-review-gate) for incomplete-review handling, [Charter Lab](https://github.com/your-organization/genesis-charter-lab) for measured instruction changes, or [Genesis Suite](https://github.com/your-organization/genesis-suite) for the connected workflow.
 
 The complete reusable operating charter is [GENESIS.md](GENESIS.md).

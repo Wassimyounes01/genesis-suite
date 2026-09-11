@@ -12,13 +12,5 @@
     "demo": "node examples/demo.cjs"
   },
   "license": "MIT",
-  "author": "Genesis Contributors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wassimyounes01/genesis-charter-lab.git"
-  },
-  "homepage": "https://github.com/Wassimyounes01/genesis-charter-lab#readme",
-  "bugs": {
-    "url": "https://github.com/Wassimyounes01/genesis-charter-lab/issues"
-  }
+  "author": "Genesis Contributors"
 }

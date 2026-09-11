@@ -34,7 +34,7 @@ The flow image shows the state transition: observation becomes a proposed revisi
 ## Quickstart
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-task-adaptation.git
+git clone https://github.com/your-organization/genesis-task-adaptation.git
 cd genesis-task-adaptation
 npm test
 npm run demo
@@ -95,8 +95,8 @@ The tests cover source-backed acceptance, stale-source rejection, immutable plan
 
 ## Related components
 
-- [genesis-plan-graph](https://github.com/Wassimyounes01/genesis-plan-graph) validates the dependency and ownership plan before execution.
-- [genesis-task-ledger](https://github.com/Wassimyounes01/genesis-task-ledger) records checked artifacts and independent review.
-- [genesis-context-graph](https://github.com/Wassimyounes01/genesis-context-graph) supplies source-backed context candidates and approval evidence.
-- [genesis-worker-router](https://github.com/Wassimyounes01/genesis-worker-router) handles bounded provider invocation.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) integrates the public modules.
+- [genesis-plan-graph](https://github.com/your-organization/genesis-plan-graph) validates the dependency and ownership plan before execution.
+- [genesis-task-ledger](https://github.com/your-organization/genesis-task-ledger) records checked artifacts and independent review.
+- [genesis-context-graph](https://github.com/your-organization/genesis-context-graph) supplies source-backed context candidates and approval evidence.
+- [genesis-worker-router](https://github.com/your-organization/genesis-worker-router) handles bounded provider invocation.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) integrates the public modules.

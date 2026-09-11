@@ -1,6 +1,11 @@
 'use strict';
 const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
 const modules=Object.freeze({
+ taskContext:require('./modules/genesis-task-context'),
+ constraintCompiler:require('./modules/genesis-constraint-compiler'),
+ verifiedReuse:require('./modules/genesis-verified-reuse'),
+ pairedExperiments:require('./modules/genesis-paired-experiments'),
+ batchDrafts:require('./modules/genesis-batch-drafts'),
  releaseIntegrity:require('./modules/genesis-release-integrity'),
  changeImpact:require('./modules/genesis-change-impact'),
  routingMetrics:require('./modules/genesis-routing-metrics'),

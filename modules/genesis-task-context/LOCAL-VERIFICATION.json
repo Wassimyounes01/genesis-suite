@@ -1,0 +1,25 @@
+{
+  "schema": "genesis-local-package-verification-v1",
+  "runtime": "v24.14.0",
+  "platform": "win32",
+  "tests": {
+    "command": "node --test --test-reporter=tap test/index.test.cjs",
+    "exitCode": 0,
+    "tests": 35,
+    "passed": 35,
+    "failed": 0,
+    "skipped": 0
+  },
+  "demo": {
+    "command": "node examples/demo.cjs",
+    "exitCode": 0
+  },
+  "ci": {
+    "configured": [
+      "22.23.2",
+      "24.14.0"
+    ],
+    "execution": "Local runtime only; remote CI not run"
+  },
+  "limits": "Synthetic regression checks do not establish general task quality or savings."
+}

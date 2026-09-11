@@ -1,0 +1,16 @@
+{
+  "schema": "genesis-portable-source-inputs-v1",
+  "inputs": [
+    {
+      "path": "lib/genesis-paired-experiments.cjs",
+      "sha256": "87608a8d0b55985f80b8a93060e5aaf618aa6ae54dc906991fae46601b84f5d0",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "test/index.test.cjs",
+      "sourceSha256": "847e5838f2f3d299a738611089b4c3c103ce91b2ec1758d16e2a516da74e8aaf",
+      "adaptation": "Only local import prefix adapted from ../../lib/ to ../lib/"
+    }
+  ],
+  "licenses": "Original CommonJS code with built-in Node modules; MIT; no bundled third-party npm code."
+}

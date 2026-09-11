@@ -32,7 +32,7 @@ The diagram shows evidence moving through the ledger. The arrows describe the ch
 ## Quickstart
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-task-ledger.git
+git clone https://github.com/your-organization/genesis-task-ledger.git
 cd genesis-task-ledger
 npm test
 npm run demo
@@ -91,8 +91,8 @@ The test suite exercises fresh acceptance and reload, duplicate credit, stale an
 
 ## Related components
 
-- [genesis-plan-graph](https://github.com/Wassimyounes01/genesis-plan-graph) validates dependencies and selects a capacity-bounded ready wave.
-- [genesis-task-adaptation](https://github.com/Wassimyounes01/genesis-task-adaptation) records feedback and durable recheck requirements.
-- [genesis-context-graph](https://github.com/Wassimyounes01/genesis-context-graph) matches current, source-backed context cards.
-- [genesis-worker-router](https://github.com/Wassimyounes01/genesis-worker-router) routes injected providers under deadlines and caps.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) integrates the public modules.
+- [genesis-plan-graph](https://github.com/your-organization/genesis-plan-graph) validates dependencies and selects a capacity-bounded ready wave.
+- [genesis-task-adaptation](https://github.com/your-organization/genesis-task-adaptation) records feedback and durable recheck requirements.
+- [genesis-context-graph](https://github.com/your-organization/genesis-context-graph) matches current, source-backed context cards.
+- [genesis-worker-router](https://github.com/your-organization/genesis-worker-router) routes injected providers under deadlines and caps.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) integrates the public modules.

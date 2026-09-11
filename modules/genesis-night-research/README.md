@@ -43,7 +43,7 @@ The worker is deliberately injected. It receives `{ passId, question, maxSources
 The repository has no runtime dependencies. Node 20 or newer is required.
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-night-research.git
+git clone https://github.com/your-organization/genesis-night-research.git
 cd genesis-night-research
 npm test
 npm run demo
@@ -106,9 +106,9 @@ The tests exercise daylight-saving-aware window calculation, closed gates, malfo
 
 ## Related projects
 
-- [genesis-repo-atlas](https://github.com/Wassimyounes01/genesis-repo-atlas) records bounded repository metadata and provenance checks.
-- [genesis-review-gate](https://github.com/Wassimyounes01/genesis-review-gate) turns an injected review adapter into a strict acceptance receipt.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) groups the public Genesis components.
+- [genesis-repo-atlas](https://github.com/your-organization/genesis-repo-atlas) records bounded repository metadata and provenance checks.
+- [genesis-review-gate](https://github.com/your-organization/genesis-review-gate) turns an injected review adapter into a strict acceptance receipt.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) groups the public Genesis components.
 
 See [examples/demo.cjs](examples/demo.cjs), [index.cjs](index.cjs), and [test/night-research.test.cjs](test/night-research.test.cjs) for the runnable demonstration and executable contract.
 

@@ -12,13 +12,5 @@
     "demo": "node examples/demo.cjs"
   },
   "license": "MIT",
-  "author": "Genesis Contributors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wassimyounes01/genesis-plan-graph.git"
-  },
-  "homepage": "https://github.com/Wassimyounes01/genesis-plan-graph#readme",
-  "bugs": {
-    "url": "https://github.com/Wassimyounes01/genesis-plan-graph/issues"
-  }
+  "author": "Genesis Contributors"
 }

@@ -25,7 +25,7 @@ This is a small library you integrate into your application. It is useful when t
 ## Quickstart
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-source-packets.git
+git clone https://github.com/your-organization/genesis-source-packets.git
 cd genesis-source-packets
 npm test
 npm run demo
@@ -50,7 +50,7 @@ The tests document valid contracts, stale evidence, missing fields and failure b
 2. **Filter and bound.**
 3. **Attach evidence.**
 
-Use this module independently or find it in the [Genesis Suite](https://github.com/Wassimyounes01/genesis-suite). The suite connects planning, bounded workers, adaptation and evidence. Operational orchestration remains the responsibility of the host application.
+Use this module independently or find it in the [Genesis Suite](https://github.com/your-organization/genesis-suite). The suite connects planning, bounded workers, adaptation and evidence. Operational orchestration remains the responsibility of the host application.
 
 ## Limits
 

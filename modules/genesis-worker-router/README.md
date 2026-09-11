@@ -34,7 +34,7 @@ A provider must return an object with explicit `ok: true` or `ok: false`. Succes
 ## Quickstart
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-worker-router.git
+git clone https://github.com/your-organization/genesis-worker-router.git
 cd genesis-worker-router
 npm test
 npm run demo
@@ -90,8 +90,8 @@ The tests cover malformed limits and provider results, pre-abort behavior, non-r
 
 ## Related components
 
-- [genesis-plan-graph](https://github.com/Wassimyounes01/genesis-plan-graph) selects dependency-ready work before dispatch.
-- [genesis-task-ledger](https://github.com/Wassimyounes01/genesis-task-ledger) records checks, artifact proofs, and independent review.
-- [genesis-task-adaptation](https://github.com/Wassimyounes01/genesis-task-adaptation) records feedback and durable rechecks.
-- [genesis-context-graph](https://github.com/Wassimyounes01/genesis-context-graph) matches current source-backed context.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) integrates the public modules.
+- [genesis-plan-graph](https://github.com/your-organization/genesis-plan-graph) selects dependency-ready work before dispatch.
+- [genesis-task-ledger](https://github.com/your-organization/genesis-task-ledger) records checks, artifact proofs, and independent review.
+- [genesis-task-adaptation](https://github.com/your-organization/genesis-task-adaptation) records feedback and durable rechecks.
+- [genesis-context-graph](https://github.com/your-organization/genesis-context-graph) matches current source-backed context.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) integrates the public modules.

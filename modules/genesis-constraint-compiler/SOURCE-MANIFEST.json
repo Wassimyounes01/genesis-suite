@@ -1,0 +1,16 @@
+{
+  "schema": "genesis-portable-source-inputs-v1",
+  "inputs": [
+    {
+      "path": "lib/genesis-constraint-compiler.cjs",
+      "sha256": "b2eee2746d294ad97ef0e9d14932764e5f9c4631c9f45b31a65ab97a5aa2bc3b",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "test/index.test.cjs",
+      "sourceSha256": "028506e8e0e71331e113fc19ead8afce78d4a0c761e66b0def875ab6ff5179cb",
+      "adaptation": "Only local import prefix adapted from ../../lib/ to ../lib/"
+    }
+  ],
+  "licenses": "Original CommonJS code with built-in Node modules; MIT; no bundled third-party npm code."
+}

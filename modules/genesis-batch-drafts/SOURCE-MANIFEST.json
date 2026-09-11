@@ -1,0 +1,31 @@
+{
+  "schema": "genesis-portable-source-inputs-v1",
+  "inputs": [
+    {
+      "path": "lib/genesis-batch-drafts.cjs",
+      "sha256": "9c6332a8e69ce142e458942ffdc054aa276fdcc21a8b7664a032af8040eb0f9e",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "lib/genesis-task-context.cjs",
+      "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "lib/genesis-source-packets.cjs",
+      "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "lib/genesis-constraint-compiler.cjs",
+      "sha256": "b2eee2746d294ad97ef0e9d14932764e5f9c4631c9f45b31a65ab97a5aa2bc3b",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "test/index.test.cjs",
+      "sourceSha256": "4dc1b7dced4f9b858d57b770b1fffc6a4d29086531b2d8de0fbb09a32dbca7eb",
+      "adaptation": "Only local import prefix adapted from ../../lib/ to ../lib/"
+    }
+  ],
+  "licenses": "Original CommonJS code with built-in Node modules; MIT; no bundled third-party npm code."
+}

@@ -1,0 +1,86 @@
+{
+  "schema": "genesis-local-release-inventory-v1",
+  "self": "FILES.json is intentionally not self-hashed",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "LOCAL-VERIFICATION.json",
+      "sha256": "708017c53b6c004a136416cbd56c12f2511017c248c3eecd5bb7acce653fa09a",
+      "bytes": 581
+    },
+    {
+      "path": "README.md",
+      "sha256": "27e6fd63fe2eefa4b82ba96d9d2981f3854485d0c145c465e2b51d5ba22db50a",
+      "bytes": 2363
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "sha256": "b6469e60dcffff07d724c23f1a0ef24af1f6b190063cf436530b63030038208b",
+      "bytes": 890
+    },
+    {
+      "path": "docs/cover.svg",
+      "sha256": "0258f2c0abb370ba1061a95df48d224ae83b0a1dfa77a0bf510e9a28c6b398a7",
+      "bytes": 1308
+    },
+    {
+      "path": "examples/demo.cjs",
+      "sha256": "8e3cf18c7012416e53253ce177332b1bfe3f1a208fd53c2657a47dd5b94c014d",
+      "bytes": 344
+    },
+    {
+      "path": "examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "index.cjs",
+      "sha256": "32b600a4114ad0fd7482a6cd6731a17b2644a0d19c6dcced11e3eadffbc4ff94",
+      "bytes": 72
+    },
+    {
+      "path": "lib/genesis-source-packets.cjs",
+      "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d",
+      "bytes": 10731
+    },
+    {
+      "path": "lib/genesis-task-context.cjs",
+      "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635",
+      "bytes": 15288
+    },
+    {
+      "path": "package.json",
+      "sha256": "f26f35ec1d153b5a5ec1a262d23b6281eb15013b56c1d48eb8aa5b5bd34b753a",
+      "bytes": 456
+    },
+    {
+      "path": "scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "test/index.test.cjs",
+      "sha256": "d5bf0c7553848950226b15c09b720d99f0ec03233ce8dc21b88174ecbab2b2f3",
+      "bytes": 27379
+    }
+  ]
+}

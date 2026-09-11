@@ -41,7 +41,7 @@ The diagram shows the two-stage workflow. `reviewArtifact` validates the artifac
 The repository has no runtime dependencies. Node 20 or newer is required.
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-review-gate.git
+git clone https://github.com/your-organization/genesis-review-gate.git
 cd genesis-review-gate
 npm test
 npm run demo
@@ -107,9 +107,9 @@ The tests cover complete refutations, provider failure, unresolved findings, unk
 
 ## Related projects
 
-- [genesis-charter-lab](https://github.com/Wassimyounes01/genesis-charter-lab) evaluates public role text through preregistered evidence.
-- [genesis-prompt-kit](https://github.com/Wassimyounes01/genesis-prompt-kit) packages bounded prompt inputs.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) groups the public Genesis components.
+- [genesis-charter-lab](https://github.com/your-organization/genesis-charter-lab) evaluates public role text through preregistered evidence.
+- [genesis-prompt-kit](https://github.com/your-organization/genesis-prompt-kit) packages bounded prompt inputs.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) groups the public Genesis components.
 
 See [examples/demo.cjs](examples/demo.cjs), [index.cjs](index.cjs), and [test/review-gate.test.cjs](test/review-gate.test.cjs) for the runnable example and executable contract.
 

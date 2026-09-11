@@ -12,17 +12,17 @@ Eight checks per repository cover the cover reference, desktop diagram, narrow d
 
 | Repository | Structural checks | Mermaid blocks, before → after | Narrow flow, before → after |
 | --- | --- | --- | --- |
-| [genesis-task-ledger](https://github.com/Wassimyounes01/genesis-task-ledger) | Pass | 1 → 0 | No → Yes |
-| [genesis-plan-graph](https://github.com/Wassimyounes01/genesis-plan-graph) | Pass | 1 → 0 | No → Yes |
-| [genesis-task-adaptation](https://github.com/Wassimyounes01/genesis-task-adaptation) | Pass | 1 → 0 | No → Yes |
-| [genesis-context-graph](https://github.com/Wassimyounes01/genesis-context-graph) | Pass | 1 → 0 | No → Yes |
-| [genesis-worker-router](https://github.com/Wassimyounes01/genesis-worker-router) | Pass | 1 → 0 | No → Yes |
-| [genesis-night-research](https://github.com/Wassimyounes01/genesis-night-research) | Pass | 1 → 0 | No → Yes |
-| [genesis-repo-atlas](https://github.com/Wassimyounes01/genesis-repo-atlas) | Pass | 1 → 0 | No → Yes |
-| [genesis-review-gate](https://github.com/Wassimyounes01/genesis-review-gate) | Pass | 1 → 0 | No → Yes |
-| [genesis-charter-lab](https://github.com/Wassimyounes01/genesis-charter-lab) | Pass | 1 → 0 | No → Yes |
-| [genesis-prompt-kit](https://github.com/Wassimyounes01/genesis-prompt-kit) | Pass | 1 → 0 | No → Yes |
-| [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) | Pass | 1 → 0 | No → Yes |
+| [genesis-task-ledger](https://github.com/your-organization/genesis-task-ledger) | Pass | 1 → 0 | No → Yes |
+| [genesis-plan-graph](https://github.com/your-organization/genesis-plan-graph) | Pass | 1 → 0 | No → Yes |
+| [genesis-task-adaptation](https://github.com/your-organization/genesis-task-adaptation) | Pass | 1 → 0 | No → Yes |
+| [genesis-context-graph](https://github.com/your-organization/genesis-context-graph) | Pass | 1 → 0 | No → Yes |
+| [genesis-worker-router](https://github.com/your-organization/genesis-worker-router) | Pass | 1 → 0 | No → Yes |
+| [genesis-night-research](https://github.com/your-organization/genesis-night-research) | Pass | 1 → 0 | No → Yes |
+| [genesis-repo-atlas](https://github.com/your-organization/genesis-repo-atlas) | Pass | 1 → 0 | No → Yes |
+| [genesis-review-gate](https://github.com/your-organization/genesis-review-gate) | Pass | 1 → 0 | No → Yes |
+| [genesis-charter-lab](https://github.com/your-organization/genesis-charter-lab) | Pass | 1 → 0 | No → Yes |
+| [genesis-prompt-kit](https://github.com/your-organization/genesis-prompt-kit) | Pass | 1 → 0 | No → Yes |
+| [genesis-suite](https://github.com/your-organization/genesis-suite) | Pass | 1 → 0 | No → Yes |
 
 Longer text is not the success criterion. The substantive review asks whether a reader can choose the component for a concrete problem, run its example and understand what remains their responsibility. Component docs were checked against source and existing tests; independent cross-review and a bounded Cursor Auto review supplied additional findings. The design profile was revised to avoid fixed quotas for benefits and diagram steps. Actual Cursor model selection and monetary cost were not exposed by that review.
 

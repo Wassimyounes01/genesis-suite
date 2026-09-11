@@ -12,13 +12,5 @@
     "demo": "node examples/demo.cjs"
   },
   "license": "MIT",
-  "author": "Genesis Contributors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wassimyounes01/genesis-task-adaptation.git"
-  },
-  "homepage": "https://github.com/Wassimyounes01/genesis-task-adaptation#readme",
-  "bugs": {
-    "url": "https://github.com/Wassimyounes01/genesis-task-adaptation/issues"
-  }
+  "author": "Genesis Contributors"
 }

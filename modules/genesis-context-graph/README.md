@@ -34,7 +34,7 @@ The diagram follows this route from source proof to a candidate transfer. “Use
 ## Quickstart
 
 ```sh
-git clone https://github.com/Wassimyounes01/genesis-context-graph.git
+git clone https://github.com/your-organization/genesis-context-graph.git
 cd genesis-context-graph
 npm test
 npm run demo
@@ -91,8 +91,8 @@ The tests cover fresh approved matching, stale-source exclusion, approval valida
 
 ## Related components
 
-- [genesis-task-ledger](https://github.com/Wassimyounes01/genesis-task-ledger) records criterion-bound checks and artifact proofs.
-- [genesis-plan-graph](https://github.com/Wassimyounes01/genesis-plan-graph) schedules dependency-ready work with declared ownership.
-- [genesis-task-adaptation](https://github.com/Wassimyounes01/genesis-task-adaptation) records source-backed changes and rechecks.
-- [genesis-worker-router](https://github.com/Wassimyounes01/genesis-worker-router) routes injected providers under bounded limits.
-- [genesis-suite](https://github.com/Wassimyounes01/genesis-suite) integrates the public modules.
+- [genesis-task-ledger](https://github.com/your-organization/genesis-task-ledger) records criterion-bound checks and artifact proofs.
+- [genesis-plan-graph](https://github.com/your-organization/genesis-plan-graph) schedules dependency-ready work with declared ownership.
+- [genesis-task-adaptation](https://github.com/your-organization/genesis-task-adaptation) records source-backed changes and rechecks.
+- [genesis-worker-router](https://github.com/your-organization/genesis-worker-router) routes injected providers under bounded limits.
+- [genesis-suite](https://github.com/your-organization/genesis-suite) integrates the public modules.

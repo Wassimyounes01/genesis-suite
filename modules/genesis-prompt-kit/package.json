@@ -13,13 +13,5 @@
     "render": "node index.cjs"
   },
   "license": "MIT",
-  "author": "Genesis Contributors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wassimyounes01/genesis-prompt-kit.git"
-  },
-  "homepage": "https://github.com/Wassimyounes01/genesis-prompt-kit#readme",
-  "bugs": {
-    "url": "https://github.com/Wassimyounes01/genesis-prompt-kit/issues"
-  }
+  "author": "Genesis Contributors"
 }

@@ -1,0 +1,1701 @@
+{
+  "schema": "genesis-local-release-inventory-v1",
+  "selfExcluded": "FILES.json cannot include its own hash.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "5e33e2432477aa284ad8426bec0bf0ed0108c60bf915efd82d1044a414a0a989",
+      "bytes": 60
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "7c3f5f874fca0d237f897462ac3e5d467ea7c8d35381957d6ccd67f29a89edde",
+      "bytes": 947
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "GENESIS.md",
+      "sha256": "2141d5b906fb1632c921f331aa4ffd7261ed365635f74af1f1ab6b0fedde8c72",
+      "bytes": 3908
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "LOCAL-VERIFICATION.json",
+      "sha256": "79a1a1f0cbb28da5b539551e45ada2cd1a09b4158215df7758e9baf86bc9fd9c",
+      "bytes": 1148
+    },
+    {
+      "path": "README.md",
+      "sha256": "1e57646cc1c03f2ccf9aebd0622e9e396db246bcbcdba3d2f4854884cd01c8b9",
+      "bytes": 3825
+    },
+    {
+      "path": "SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "VERIFICATION.md",
+      "sha256": "e9c98405f7d61e970120467b170a7ad057a3cd01e3d42fba94a00d2757ad6da5",
+      "bytes": 1837
+    },
+    {
+      "path": "docs/API.md",
+      "sha256": "7badfb08eedaf90634b653bff0abb8be69e81baae4d5fbbc532fb28f6935f2e8",
+      "bytes": 3747
+    },
+    {
+      "path": "docs/cover-v2.svg",
+      "sha256": "b486c80724b8f61950a35666d632199aa154cf18e3236b5108ee452655e9d3f4",
+      "bytes": 2078
+    },
+    {
+      "path": "docs/efficiency-cover.svg",
+      "sha256": "eef13f33ad6f039b44115f2d566a73bf67a22e1df5552fd8254567a77410ba64",
+      "bytes": 1338
+    },
+    {
+      "path": "docs/flow-compact.svg",
+      "sha256": "577c80a80696ed83d6fc48aba159fc8a9a831db8fed58db1d52348630400fd0a",
+      "bytes": 2155
+    },
+    {
+      "path": "docs/flow.svg",
+      "sha256": "2f2f7215ad0bd412aa8a3a7790420c34f3d4526a7865db2691d1f0e6842de6ae",
+      "bytes": 2462
+    },
+    {
+      "path": "examples/demo.cjs",
+      "sha256": "f98896dfff0195bd38549b5bcf0ef2b817e5bc84fc421fd5d1b767f2de8fbe7d",
+      "bytes": 4226
+    },
+    {
+      "path": "examples/efficiency-controls.cjs",
+      "sha256": "61077de14f4d8fbf65f28d029179abd0c9f5dfe85111472820ffe84f82bf4934",
+      "bytes": 684
+    },
+    {
+      "path": "examples/task-controls.cjs",
+      "sha256": "0bfec64d35873f14337fbd51646d342ea2a82dcba3d90f5abe88d39b69d77825",
+      "bytes": 811
+    },
+    {
+      "path": "index.cjs",
+      "sha256": "c92418d58f8953a5212c837df8d7e8d1e8a405bf27430b080a2f9a484c0a85c3",
+      "bytes": 16711
+    },
+    {
+      "path": "module-manifest.json",
+      "sha256": "3ecf7c3e2b83ef24507749f67c7ef6bc3a5716feb46e2c2df0dfb3d388de292f",
+      "bytes": 750
+    },
+    {
+      "path": "modules-lock.json",
+      "sha256": "8bdbbba526257be07581d18a2ad7d0ca6e35b3bac01d566a2899377d1b46f116",
+      "bytes": 47182
+    },
+    {
+      "path": "modules/genesis-batch-drafts/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-batch-drafts/.github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": "modules/genesis-batch-drafts/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-batch-drafts/FILES.json",
+      "sha256": "a92db53f7c8ccd78ce5083cc2d7eed64f4127cec81a84baf5df89091ffb12ae4",
+      "bytes": 2901
+    },
+    {
+      "path": "modules/genesis-batch-drafts/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-batch-drafts/LOCAL-VERIFICATION.json",
+      "sha256": "344d22c586b770509228f29e017275883294afcae36ecaaec0599caabe9839f1",
+      "bytes": 581
+    },
+    {
+      "path": "modules/genesis-batch-drafts/README.md",
+      "sha256": "a95b8f17904ce321a8a6fe4d6b65e6a4b578a0c7040251f366c9b8ed0317d2f5",
+      "bytes": 2486
+    },
+    {
+      "path": "modules/genesis-batch-drafts/SOURCE-MANIFEST.json",
+      "sha256": "bea85fe7f20724a741f3c61c021f0c843dbcea2126c71a46c700bc12b47271ba",
+      "bytes": 1135
+    },
+    {
+      "path": "modules/genesis-batch-drafts/docs/cover.svg",
+      "sha256": "aca7d1ccc2800589eeb1f6a00dbfa5e7923a7dcbfc6f872e85ef7292dbb80b11",
+      "bytes": 1348
+    },
+    {
+      "path": "modules/genesis-batch-drafts/examples/demo.cjs",
+      "sha256": "eee168dddd3df47346896d166aee5dbdc4b9ab7e8adc0b7990ead170b18eb1cb",
+      "bytes": 1406
+    },
+    {
+      "path": "modules/genesis-batch-drafts/examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "modules/genesis-batch-drafts/index.cjs",
+      "sha256": "3652aee0e6c61181835fcf68c91bdaae88a74d16b38309b1a015f18441759200",
+      "bytes": 72
+    },
+    {
+      "path": "modules/genesis-batch-drafts/lib/genesis-batch-drafts.cjs",
+      "sha256": "9c6332a8e69ce142e458942ffdc054aa276fdcc21a8b7664a032af8040eb0f9e",
+      "bytes": 24295
+    },
+    {
+      "path": "modules/genesis-batch-drafts/lib/genesis-constraint-compiler.cjs",
+      "sha256": "b2eee2746d294ad97ef0e9d14932764e5f9c4631c9f45b31a65ab97a5aa2bc3b",
+      "bytes": 14289
+    },
+    {
+      "path": "modules/genesis-batch-drafts/lib/genesis-source-packets.cjs",
+      "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d",
+      "bytes": 10731
+    },
+    {
+      "path": "modules/genesis-batch-drafts/lib/genesis-task-context.cjs",
+      "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635",
+      "bytes": 15288
+    },
+    {
+      "path": "modules/genesis-batch-drafts/package.json",
+      "sha256": "fc55703a796bad85440de905e4c425c1dae51d9f89a2c2182bbc6511c84cb77a",
+      "bytes": 469
+    },
+    {
+      "path": "modules/genesis-batch-drafts/scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "modules/genesis-batch-drafts/test/index.test.cjs",
+      "sha256": "a9c07c462e77bcb20c983ab190f8aea1c05b1be24207750d3f3beed1e29e8450",
+      "bytes": 26851
+    },
+    {
+      "path": "modules/genesis-change-impact/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-change-impact/.github/workflows/test.yml",
+      "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414",
+      "bytes": 361
+    },
+    {
+      "path": "modules/genesis-change-impact/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-change-impact/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-change-impact/README.md",
+      "sha256": "81147f0da092852611b4a9eefaeb466874dccc7918092c7dd7f6b2a976e19729",
+      "bytes": 3324
+    },
+    {
+      "path": "modules/genesis-change-impact/docs/cover.svg",
+      "sha256": "2dee5357fdbe9a1f06b14ed6bbe13d3c255135bd3ec649bb11f107179647085e",
+      "bytes": 2012
+    },
+    {
+      "path": "modules/genesis-change-impact/examples/demo.cjs",
+      "sha256": "316f8c9405f3ebf7e7a8c6f60903faa744fce332f20895c2c4ab7a3ad61478cd",
+      "bytes": 358
+    },
+    {
+      "path": "modules/genesis-change-impact/index.cjs",
+      "sha256": "3904d02d1a6e36be4b4ae9d4411e78ee82c870dc26377112d7ad6e503ccd2160",
+      "bytes": 7429
+    },
+    {
+      "path": "modules/genesis-change-impact/package.json",
+      "sha256": "f5c90148dd7d7f61a0207686cc75bda44ceb4f6fa12227c638551cb12fff766b",
+      "bytes": 376
+    },
+    {
+      "path": "modules/genesis-change-impact/test/index.test.cjs",
+      "sha256": "f4ce5c89d9b06726ac7deaaef66ab60ae00fb5cb853f72a4a328f83674ee76bc",
+      "bytes": 6906
+    },
+    {
+      "path": "modules/genesis-charter-lab/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-charter-lab/.gitignore",
+      "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657",
+      "bytes": 30
+    },
+    {
+      "path": "modules/genesis-charter-lab/CHANGELOG.md",
+      "sha256": "bf50d1041b5779df203f61e0092f536606a51701b17f9ac0c8980a41e0c94047",
+      "bytes": 107
+    },
+    {
+      "path": "modules/genesis-charter-lab/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-charter-lab/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-charter-lab/README.md",
+      "sha256": "64d6e2e25c550167d7ff43f810ae964c9cba5dde9f7d0263dbc90167979e2386",
+      "bytes": 8830
+    },
+    {
+      "path": "modules/genesis-charter-lab/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-charter-lab/VERIFICATION.md",
+      "sha256": "8edb37e09f692b475bfa7aa03569ff82c835ed07cb38f5b7323e9321b6e36f20",
+      "bytes": 781
+    },
+    {
+      "path": "modules/genesis-charter-lab/docs/cover-v2.svg",
+      "sha256": "b56e76114da095bb3c12e48003a482c1e33c49cd9c9c6a7ec414c5471645e3cf",
+      "bytes": 2052
+    },
+    {
+      "path": "modules/genesis-charter-lab/docs/flow-compact.svg",
+      "sha256": "f9b29d0da485efdfc07a3c1bdcf9fa93b54ec16cd1073c538cd2d4ac26e7889d",
+      "bytes": 2157
+    },
+    {
+      "path": "modules/genesis-charter-lab/docs/flow.svg",
+      "sha256": "ff6476e37a4ce2e975fa7b77b4ac4b2e7fde1e2e0156931d93206b8da4c68e9c",
+      "bytes": 2446
+    },
+    {
+      "path": "modules/genesis-charter-lab/examples/demo.cjs",
+      "sha256": "2b970d2e0453cbaf43a2b9fed4727de51f70a908db807ed456b29f2e83de82b0",
+      "bytes": 1800
+    },
+    {
+      "path": "modules/genesis-charter-lab/index.cjs",
+      "sha256": "73f6442819e75ef922363af90eff952ddd0dd2ebb99a706ed6bda4670c1396d1",
+      "bytes": 17983
+    },
+    {
+      "path": "modules/genesis-charter-lab/module-manifest.json",
+      "sha256": "ebc5a0266d110c304f6f32b824b262771068536ad2efbb29576df907b7b9068b",
+      "bytes": 1392
+    },
+    {
+      "path": "modules/genesis-charter-lab/package.json",
+      "sha256": "acc35ad00d8735886e664d2206e6fb280d98ff572f6fd265f581e92b358a95df",
+      "bytes": 354
+    },
+    {
+      "path": "modules/genesis-charter-lab/test/charter-lab.test.cjs",
+      "sha256": "9d5e39f16dde79d534165e50d83ed560068711d9aab9c867a44a3c1c46648583",
+      "bytes": 7318
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/.github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/FILES.json",
+      "sha256": "7e043eec5cef64b533a1e66b983b7446e768b4343d126eacad60247a13924415",
+      "bytes": 2401
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/LOCAL-VERIFICATION.json",
+      "sha256": "b452ada4784b4499c62cbc643f1df6526ca94014496e297782da336aa47a7311",
+      "bytes": 581
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/README.md",
+      "sha256": "fd1f85954cd4469a9d6cd19fee09fc14caf237b31017aa6bb7324804e1978427",
+      "bytes": 2354
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/SOURCE-MANIFEST.json",
+      "sha256": "e01ca1053bfd7ffa7a2bf991a2ccd1530e2f1f5971150f88a756314c528712b6",
+      "bytes": 587
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/docs/cover.svg",
+      "sha256": "77e7be571b64e15179f39dbccd148499a31103b2e74005fdb35c1986334fc10d",
+      "bytes": 1338
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/examples/demo.cjs",
+      "sha256": "a40f19f75ea202b8b94ca0396fe5415f66756d439e4c710667ed2738550d1c49",
+      "bytes": 340
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/index.cjs",
+      "sha256": "31196b2f944fc5193522cda800635e95c1046fbb1db587fea4cad53eed4f86a2",
+      "bytes": 79
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/lib/genesis-constraint-compiler.cjs",
+      "sha256": "b2eee2746d294ad97ef0e9d14932764e5f9c4631c9f45b31a65ab97a5aa2bc3b",
+      "bytes": 14289
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/package.json",
+      "sha256": "3e090522b6e86fadc4f58459482e3d7aa5b26e46b1488fa2066d282f58b30611",
+      "bytes": 468
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "modules/genesis-constraint-compiler/test/index.test.cjs",
+      "sha256": "c1fac96d0f93293252a3d548ef2e9b58419b7c4c570c2395a95b1f1fc1398391",
+      "bytes": 17767
+    },
+    {
+      "path": "modules/genesis-context-graph/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-context-graph/.gitignore",
+      "sha256": "7c3a1265ee6395eb004769e5123a2f060c59f2aec6b35cfb735634519c4f5515",
+      "bytes": 48
+    },
+    {
+      "path": "modules/genesis-context-graph/CHANGELOG.md",
+      "sha256": "6173e7fc0eb7d852913c8dfdded474875cbe6b97b44910edc10ded547e4d810d",
+      "bytes": 80
+    },
+    {
+      "path": "modules/genesis-context-graph/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-context-graph/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-context-graph/README.md",
+      "sha256": "158b009cc0f179cd68547785a10ccc29aef0aa539ae277f963560a482cef1ad4",
+      "bytes": 7341
+    },
+    {
+      "path": "modules/genesis-context-graph/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-context-graph/VERIFICATION.md",
+      "sha256": "476fa0505fbd4517ddf113320bdcfe3ed0ccbe9ab351214e1afd9c416bff8546",
+      "bytes": 781
+    },
+    {
+      "path": "modules/genesis-context-graph/docs/cover-v2.svg",
+      "sha256": "1f43ba1b205c84cbbd78224b2661385d3e24032e205b4ef91a8955f78b431d90",
+      "bytes": 2058
+    },
+    {
+      "path": "modules/genesis-context-graph/docs/flow-compact.svg",
+      "sha256": "3aa2ac453fc0b0a7d037cd3e522854c7933ac444201ba1524cdd340b7eb2a70f",
+      "bytes": 2167
+    },
+    {
+      "path": "modules/genesis-context-graph/docs/flow.svg",
+      "sha256": "b6521e1341dab15fbc4b849cb35b78a4d64dca0f8c7855ee347a9cbc050fec5f",
+      "bytes": 2476
+    },
+    {
+      "path": "modules/genesis-context-graph/examples/demo.cjs",
+      "sha256": "36f243282a201814268b2e02651ff071bc91513b9577fd25dd9f0e16083124d4",
+      "bytes": 1480
+    },
+    {
+      "path": "modules/genesis-context-graph/index.cjs",
+      "sha256": "1064320daea3e28c6b0080a221f809d45be8733beb6c6f70c20ed417507944fe",
+      "bytes": 17814
+    },
+    {
+      "path": "modules/genesis-context-graph/module-manifest.json",
+      "sha256": "31e21b139336b7bebdab2fe8473fa01c870cb3dc8abd3c95661cc4bd543e9b7a",
+      "bytes": 902
+    },
+    {
+      "path": "modules/genesis-context-graph/package.json",
+      "sha256": "fea194acaf04d814ce30818f3f102df7fbaf8d54608064bc9fe9cf8faf7d0c97",
+      "bytes": 355
+    },
+    {
+      "path": "modules/genesis-context-graph/test/context.test.cjs",
+      "sha256": "d07e9d5c8020e9a7e034a49f34578b855f026f3ca0a0fcc6229c2e2bd50e59ae",
+      "bytes": 6594
+    },
+    {
+      "path": "modules/genesis-evidence-collector/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-evidence-collector/.github/workflows/test.yml",
+      "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414",
+      "bytes": 361
+    },
+    {
+      "path": "modules/genesis-evidence-collector/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-evidence-collector/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-evidence-collector/README.md",
+      "sha256": "d23bc839c624bea0089d76ce02f9f878f595212ea1db55c69d04b1f3ad154a6c",
+      "bytes": 3508
+    },
+    {
+      "path": "modules/genesis-evidence-collector/docs/cover.svg",
+      "sha256": "6860a7e25fc92038fc35e8ab8cea45d47f85b784b8cffdb43d0d4d19f3d15b82",
+      "bytes": 2046
+    },
+    {
+      "path": "modules/genesis-evidence-collector/examples/demo.cjs",
+      "sha256": "feca6359d2243b073c0f59f06c17162987d7a1147c4bc0e7fccaee6edd10d09b",
+      "bytes": 526
+    },
+    {
+      "path": "modules/genesis-evidence-collector/index.cjs",
+      "sha256": "613c0f16b63634e1e975b71a10adb99c00f4b32ae332b918f46a4cfdbb382f56",
+      "bytes": 6401
+    },
+    {
+      "path": "modules/genesis-evidence-collector/package.json",
+      "sha256": "965aab1a1926cb1e4a73aca34be830d481e542c75fbe1a739cd7bbc83b235c05",
+      "bytes": 388
+    },
+    {
+      "path": "modules/genesis-evidence-collector/test/index.test.cjs",
+      "sha256": "01d801b545300af9e2496816305aa449587bb0f6602af24a88f968e21a088dac",
+      "bytes": 4167
+    },
+    {
+      "path": "modules/genesis-night-research/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-night-research/.gitignore",
+      "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c",
+      "bytes": 30
+    },
+    {
+      "path": "modules/genesis-night-research/CHANGELOG.md",
+      "sha256": "af92d436cbcadfe67cac4c55ea01afbada040fa10ecb053c17f0d928298ae82d",
+      "bytes": 69
+    },
+    {
+      "path": "modules/genesis-night-research/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-night-research/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-night-research/README.md",
+      "sha256": "3a1e127d86e57003628ead281bfa68ab4f7b2b3fe70b6e7a46a3a0380ac1cbf7",
+      "bytes": 7991
+    },
+    {
+      "path": "modules/genesis-night-research/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-night-research/VERIFICATION.md",
+      "sha256": "94bfda350b4f02269b8348298a97392ce6d4c2ca1f6830ad6b3a358a127af271",
+      "bytes": 782
+    },
+    {
+      "path": "modules/genesis-night-research/docs/cover-v2.svg",
+      "sha256": "4e4332221d88841a6152f8b4bffcfcba267744fb7e84e3e8cd2d5b297d1d7c86",
+      "bytes": 2061
+    },
+    {
+      "path": "modules/genesis-night-research/docs/flow-compact.svg",
+      "sha256": "2a2340b9f63492dba4e9adf99b65a9ff9939da3202f46a75dee57e3b527e6335",
+      "bytes": 2162
+    },
+    {
+      "path": "modules/genesis-night-research/docs/flow.svg",
+      "sha256": "a3a0bbb890cf84c7999803276cfb73cce427e24bb602a4584ae51fea57354710",
+      "bytes": 2471
+    },
+    {
+      "path": "modules/genesis-night-research/examples/demo.cjs",
+      "sha256": "111b265f749cd7be4fa3926e63b54ca041e2b94db9d391da01f6d507ce718ec9",
+      "bytes": 1011
+    },
+    {
+      "path": "modules/genesis-night-research/index.cjs",
+      "sha256": "523dc64aa1e99f8d991d468d0883c203620ca7d7a4a582039ba246f8b2ec68d8",
+      "bytes": 13229
+    },
+    {
+      "path": "modules/genesis-night-research/module-manifest.json",
+      "sha256": "ad204290e98dfd04ffdf03c9c458e8820381e958a6eb129d7e6dc4befbdbd1a9",
+      "bytes": 926
+    },
+    {
+      "path": "modules/genesis-night-research/package.json",
+      "sha256": "f21984f95b59dacd9d2ea72fc54e9b496106e4cf6545b8e2ad69d624e6a08d91",
+      "bytes": 365
+    },
+    {
+      "path": "modules/genesis-night-research/test/night-research.test.cjs",
+      "sha256": "dd77cf21d644c5fe94812b59dca7f361da9a8e33be7d99c07c063d84f6e009a5",
+      "bytes": 5068
+    },
+    {
+      "path": "modules/genesis-paired-experiments/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-paired-experiments/.github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": "modules/genesis-paired-experiments/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-paired-experiments/FILES.json",
+      "sha256": "d196167420fc6508b3a621891ca88ac5b21572f4b66c69a64395bc0fcb6d6ca2",
+      "bytes": 2401
+    },
+    {
+      "path": "modules/genesis-paired-experiments/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-paired-experiments/LOCAL-VERIFICATION.json",
+      "sha256": "12c42d8aa2b03c865d5fea88d333368ad6133f1258e413d84ed411951ab2caf0",
+      "bytes": 581
+    },
+    {
+      "path": "modules/genesis-paired-experiments/README.md",
+      "sha256": "049a16601f3fabab6641bcd8102e3301261129bf9e978fe70728191ff124e51d",
+      "bytes": 2475
+    },
+    {
+      "path": "modules/genesis-paired-experiments/SOURCE-MANIFEST.json",
+      "sha256": "bdf255d7f4a140825c2838241c34d3c656b35979c1ef9289dbff07f10ac88dc5",
+      "bytes": 586
+    },
+    {
+      "path": "modules/genesis-paired-experiments/docs/cover.svg",
+      "sha256": "e470bcff596b98403890e5cdb92e61b100932efb068e343914928c6b1ea569c3",
+      "bytes": 1346
+    },
+    {
+      "path": "modules/genesis-paired-experiments/examples/demo.cjs",
+      "sha256": "d3ca546fb87e1a48088c168653beaafd29178ce40c56006ff3450a5af0202cfb",
+      "bytes": 1002
+    },
+    {
+      "path": "modules/genesis-paired-experiments/examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "modules/genesis-paired-experiments/index.cjs",
+      "sha256": "ee05084d17bb02541ffa455b22b60ceb88b5f98f40378aacca9bc1576aa53e43",
+      "bytes": 78
+    },
+    {
+      "path": "modules/genesis-paired-experiments/lib/genesis-paired-experiments.cjs",
+      "sha256": "87608a8d0b55985f80b8a93060e5aaf618aa6ae54dc906991fae46601b84f5d0",
+      "bytes": 16731
+    },
+    {
+      "path": "modules/genesis-paired-experiments/package.json",
+      "sha256": "04e407653f286089d74ecb885c2adaa4e0899cf418416030ced4abf2b8ca446f",
+      "bytes": 470
+    },
+    {
+      "path": "modules/genesis-paired-experiments/scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "modules/genesis-paired-experiments/test/index.test.cjs",
+      "sha256": "6dd1bae68aee7b4fa6c5ee80ff6cc385cc8aca60f227b31a9157eec302f3a6c0",
+      "bytes": 12463
+    },
+    {
+      "path": "modules/genesis-plan-graph/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-plan-graph/.gitignore",
+      "sha256": "108d2b818b63d1f2ffaefee13455961edf1544f49ccf847396de3e85eb5ad724",
+      "bytes": 24
+    },
+    {
+      "path": "modules/genesis-plan-graph/CHANGELOG.md",
+      "sha256": "c8144c97c404975e0fa20fa833f92ba614b778bf54c2df54c4ea82ff4798dc9d",
+      "bytes": 59
+    },
+    {
+      "path": "modules/genesis-plan-graph/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-plan-graph/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-plan-graph/README.md",
+      "sha256": "3ef98316d52c0f22addf32828cd6651cb2556ff6db252018c0d0c6ee191cd8ac",
+      "bytes": 6272
+    },
+    {
+      "path": "modules/genesis-plan-graph/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-plan-graph/VERIFICATION.md",
+      "sha256": "60a680016b09ba3623afa647ccbeec1b2523374e38e16071f32f5625d9a0b11b",
+      "bytes": 780
+    },
+    {
+      "path": "modules/genesis-plan-graph/docs/cover-v2.svg",
+      "sha256": "153a13615ea17c7e35dc0f6284d8e5f352d8d3f5d2e363b1000c4cf4c77da075",
+      "bytes": 2060
+    },
+    {
+      "path": "modules/genesis-plan-graph/docs/flow-compact.svg",
+      "sha256": "fb23ddc6920dae8d4a6f4becfd1c02ff9e8c179ff90cc74047a672228b8103fd",
+      "bytes": 2146
+    },
+    {
+      "path": "modules/genesis-plan-graph/docs/flow.svg",
+      "sha256": "8f6711e5a0c6dd8cfbad81bf495440558c92a492bc66937f7a0eeafbbf5c9a4d",
+      "bytes": 2441
+    },
+    {
+      "path": "modules/genesis-plan-graph/examples/demo.cjs",
+      "sha256": "b4d9c89caa7ba694ac088d501bed36ea2e37c37a4c0423f1edb566eee56556a9",
+      "bytes": 553
+    },
+    {
+      "path": "modules/genesis-plan-graph/index.cjs",
+      "sha256": "c47e774275aa93c9c0d99aaf24b574ac38c9f2aa65c4bf0f8c801341486feb2d",
+      "bytes": 8559
+    },
+    {
+      "path": "modules/genesis-plan-graph/module-manifest.json",
+      "sha256": "0c6faea4c953c61ae24f18fba2612396b7ff4ab38534f927fa30982952294e2e",
+      "bytes": 558
+    },
+    {
+      "path": "modules/genesis-plan-graph/package.json",
+      "sha256": "8721ae07d7002655164a9dbdf25d281670cc96ee0377f58962c8446cb8929bf4",
+      "bytes": 357
+    },
+    {
+      "path": "modules/genesis-plan-graph/test/plan-graph.test.cjs",
+      "sha256": "eacc3820ed097695af2712a452a8a0fae3b24b6e6092dcf2c1dfdb8d531e4e03",
+      "bytes": 1853
+    },
+    {
+      "path": "modules/genesis-prompt-kit/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-prompt-kit/.gitignore",
+      "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657",
+      "bytes": 30
+    },
+    {
+      "path": "modules/genesis-prompt-kit/CHANGELOG.md",
+      "sha256": "b9a013b5a388e9f61ddc8324c327737d6934212d39851083133b6c9e764d6513",
+      "bytes": 102
+    },
+    {
+      "path": "modules/genesis-prompt-kit/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-prompt-kit/GENESIS.md",
+      "sha256": "bb371a7e931377dcb208d1f7874874d8abf3b990af10f5549e788941e3703a01",
+      "bytes": 4805
+    },
+    {
+      "path": "modules/genesis-prompt-kit/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-prompt-kit/README.md",
+      "sha256": "938e51c5f73d8614b1e1bb37e7443ade9c440be9aaf7735d259add2c60f632c4",
+      "bytes": 7075
+    },
+    {
+      "path": "modules/genesis-prompt-kit/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-prompt-kit/VERIFICATION.md",
+      "sha256": "25e99c0e5e350318918fee8b0710a5676bcfd5bd7ecb2b27250ea61a3dd24cbc",
+      "bytes": 781
+    },
+    {
+      "path": "modules/genesis-prompt-kit/docs/DESIGN-TRIAL.md",
+      "sha256": "1620c4087111c6c0d815882c8dc5ed2fd39f4a37d7a445a85bc841d71b01af36",
+      "bytes": 4339
+    },
+    {
+      "path": "modules/genesis-prompt-kit/docs/FOUNDATIONS.md",
+      "sha256": "adc633bc505cee574b526e12fded73f4101ad60bd44deec8957302c0e2dcc971",
+      "bytes": 6396
+    },
+    {
+      "path": "modules/genesis-prompt-kit/docs/REPOSITORY-DESIGN-PROMPT.md",
+      "sha256": "8b5110c00c7d47bc507bd77600bea54459d0ef23e6d02b8f1e72f9ea080f0549",
+      "bytes": 5617
+    },
+    {
+      "path": "modules/genesis-prompt-kit/docs/cover-v2.svg",
+      "sha256": "26d3d608d194f390aeb308bae10f466b78bc23a8d56d07c1c1114e74b6c53d19",
+      "bytes": 2070
+    },
+    {
+      "path": "modules/genesis-prompt-kit/docs/flow-compact.svg",
+      "sha256": "7924e08e19052753631af4c9f8ea799526cce76305f3c099a43d3d3c9943d2de",
+      "bytes": 2146
+    },
+    {
+      "path": "modules/genesis-prompt-kit/docs/flow.svg",
+      "sha256": "e48b3793a1b5d28bca115bfec2cd331c2c3638468eac2e3ce9fc597269f7c0ae",
+      "bytes": 2451
+    },
+    {
+      "path": "modules/genesis-prompt-kit/examples/demo.cjs",
+      "sha256": "75966c292bc13f9e9478e31f6d8c402e2778881e69be0dbeac01cee1d87c5a3c",
+      "bytes": 442
+    },
+    {
+      "path": "modules/genesis-prompt-kit/index.cjs",
+      "sha256": "96215868c8a58ea7059a3682a2b2f36a54a8b43d463b78002970c61d379aff0e",
+      "bytes": 9844
+    },
+    {
+      "path": "modules/genesis-prompt-kit/module-manifest.json",
+      "sha256": "7bfc6ccc5c67a99efe5f75e5bf2c496d1963baef884ac10bed1a5b823b0ad58a",
+      "bytes": 1707
+    },
+    {
+      "path": "modules/genesis-prompt-kit/package.json",
+      "sha256": "9c6b8f50e493aa2563c317111c3257f3e252f04bd4f6104babe07ba78d144c9f",
+      "bytes": 394
+    },
+    {
+      "path": "modules/genesis-prompt-kit/repository-design.cjs",
+      "sha256": "f8c109f769b54dfe17c79e5b3377ec57baf05465c84e7e27869ad23355a26fc1",
+      "bytes": 5732
+    },
+    {
+      "path": "modules/genesis-prompt-kit/test/prompt-kit.test.cjs",
+      "sha256": "4f26ff45d19936cc03bf81e4669db4f75534e73ca24706ecdfc2ba2ffbd4377d",
+      "bytes": 2553
+    },
+    {
+      "path": "modules/genesis-regression-memory/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-regression-memory/.github/workflows/test.yml",
+      "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414",
+      "bytes": 361
+    },
+    {
+      "path": "modules/genesis-regression-memory/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-regression-memory/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-regression-memory/README.md",
+      "sha256": "4f5ccd6bca8e8553851422d9019d9b8e85ece7e60a8e0527e610efbdfc0ff12c",
+      "bytes": 3767
+    },
+    {
+      "path": "modules/genesis-regression-memory/docs/cover.svg",
+      "sha256": "81851937a94705f1e7e54bc991323a24513db5fb6daf6b224dad68d87546c662",
+      "bytes": 2008
+    },
+    {
+      "path": "modules/genesis-regression-memory/examples/demo.cjs",
+      "sha256": "d304c11e377b1cd6c1a00b8fbc8d88908ed82b91cca9b298b4ba7ec55c793b5a",
+      "bytes": 525
+    },
+    {
+      "path": "modules/genesis-regression-memory/index.cjs",
+      "sha256": "fee600bfd2dc3dded8b1ba0604373c5b6e54c9b7bbf96cb551c0953a0037ae41",
+      "bytes": 13815
+    },
+    {
+      "path": "modules/genesis-regression-memory/package.json",
+      "sha256": "a2c405ddbbb43b6b3bde73fee06b6c66a2ef73d86ca2664b7ada6b4fcff5d5fa",
+      "bytes": 390
+    },
+    {
+      "path": "modules/genesis-regression-memory/test/index.test.cjs",
+      "sha256": "1845acd060b698606b331aa2f30faf363e4605af8b8a88666e4d5cc295d4b60b",
+      "bytes": 13808
+    },
+    {
+      "path": "modules/genesis-release-integrity/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-release-integrity/.github/workflows/test.yml",
+      "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414",
+      "bytes": 361
+    },
+    {
+      "path": "modules/genesis-release-integrity/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-release-integrity/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-release-integrity/README.md",
+      "sha256": "3f2f648a43bc165e51a3793c06ce6d12294645f57c066df2973cc5d054c0e844",
+      "bytes": 3333
+    },
+    {
+      "path": "modules/genesis-release-integrity/docs/cover.svg",
+      "sha256": "81cb3beb4ab467c226cd0b3601aab33e27db28ddce6e6523065bb9b5a823a632",
+      "bytes": 2022
+    },
+    {
+      "path": "modules/genesis-release-integrity/examples/demo.cjs",
+      "sha256": "91de42ce2d48608a7587142035cd1875456219cb83aab2eb31542adb96fed278",
+      "bytes": 297
+    },
+    {
+      "path": "modules/genesis-release-integrity/index.cjs",
+      "sha256": "139f5aa7377a76ab32ea44ee5c3d34fabc8b723a33a62b255bc0f556ac66c95c",
+      "bytes": 4155
+    },
+    {
+      "path": "modules/genesis-release-integrity/package.json",
+      "sha256": "b72ed4f0b962aa24e2ce73cf4734379826850626da8b9e66f5634dd5aef70d8e",
+      "bytes": 383
+    },
+    {
+      "path": "modules/genesis-release-integrity/test/index.test.cjs",
+      "sha256": "8f5167032d06b7df46e421adc2e2263fe361a4dbe26306bcf5cc44a4b9cfa418",
+      "bytes": 2849
+    },
+    {
+      "path": "modules/genesis-repo-atlas/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-repo-atlas/.gitignore",
+      "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c",
+      "bytes": 30
+    },
+    {
+      "path": "modules/genesis-repo-atlas/CHANGELOG.md",
+      "sha256": "4f0ace53b594394aa2fe691117451b8e720f2e45ded894bce39fbc3fced918dd",
+      "bytes": 80
+    },
+    {
+      "path": "modules/genesis-repo-atlas/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-repo-atlas/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-repo-atlas/README.md",
+      "sha256": "f69c4d92c1811ddde025d8a7a8f831b11d7c03fe2023271a62fef449e7b80105",
+      "bytes": 7501
+    },
+    {
+      "path": "modules/genesis-repo-atlas/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-repo-atlas/VERIFICATION.md",
+      "sha256": "5f4bc15578df09c0ff479e96db14127af044eddfd9e84a29af724c3c9147b9e5",
+      "bytes": 781
+    },
+    {
+      "path": "modules/genesis-repo-atlas/docs/cover-v2.svg",
+      "sha256": "1bbb3e2024310397efa8818a51164e1362874299e83d2c43a12aabbd55d8e442",
+      "bytes": 2046
+    },
+    {
+      "path": "modules/genesis-repo-atlas/docs/flow-compact.svg",
+      "sha256": "4f88fc64065922100641bef9e5aaf0650b3f3835a516c8f1d667ea35d2ad92bc",
+      "bytes": 2136
+    },
+    {
+      "path": "modules/genesis-repo-atlas/docs/flow.svg",
+      "sha256": "e6d5bf108a962a8a5f45be98e0f62a19537e273f07a069f2d46019728f96d451",
+      "bytes": 2439
+    },
+    {
+      "path": "modules/genesis-repo-atlas/examples/demo.cjs",
+      "sha256": "a90c01716762f2d52ce3c4f8a9046cca5056a85033d38a516c760733a9fb234b",
+      "bytes": 674
+    },
+    {
+      "path": "modules/genesis-repo-atlas/index.cjs",
+      "sha256": "1fe17b4e892ea85b80cf0aa005dff82db08ef60d89c8c2a3e568f4aa6ecf5c17",
+      "bytes": 10794
+    },
+    {
+      "path": "modules/genesis-repo-atlas/module-manifest.json",
+      "sha256": "285676db8a38997f72c17c7b7b1d6af9646b7114bd1d89c89661ee5d7f4aec29",
+      "bytes": 1013
+    },
+    {
+      "path": "modules/genesis-repo-atlas/package.json",
+      "sha256": "911b70d38657fe64b8d77b07797612a664183f981b147aa061ac3f54729b6d0e",
+      "bytes": 355
+    },
+    {
+      "path": "modules/genesis-repo-atlas/test/repo-atlas.test.cjs",
+      "sha256": "32e645f8cc1c5b95af20d025a576197a8addb951006d2f5828381900ed753cee",
+      "bytes": 3297
+    },
+    {
+      "path": "modules/genesis-review-gate/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-review-gate/.gitignore",
+      "sha256": "934390ee2b950fef94244fcc1ba5c0b334e15629210af8f4263dfdbd61cde657",
+      "bytes": 30
+    },
+    {
+      "path": "modules/genesis-review-gate/CHANGELOG.md",
+      "sha256": "aaffe53277206027243b63c541b23fa7da37d9b9bb33ad3a2f37cb62f7a5b006",
+      "bytes": 110
+    },
+    {
+      "path": "modules/genesis-review-gate/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-review-gate/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-review-gate/README.md",
+      "sha256": "00427d5d059e062aa763506452c6d37bbf14564e674e3cb89b8018208bcacc65",
+      "bytes": 7988
+    },
+    {
+      "path": "modules/genesis-review-gate/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-review-gate/VERIFICATION.md",
+      "sha256": "08c82c9261e5f864d70be90f989238a8fcff69353cc590ea71fb9dd156d5ca72",
+      "bytes": 782
+    },
+    {
+      "path": "modules/genesis-review-gate/docs/cover-v2.svg",
+      "sha256": "5d3f9ccc58e64a5f830d9418b25f92e1cc91e1d88396deee4c1362c0dff0c8ea",
+      "bytes": 2069
+    },
+    {
+      "path": "modules/genesis-review-gate/docs/flow-compact.svg",
+      "sha256": "6b512ae4991c77cafaa0e56687dd8e8c4590352c11b26da9df4d79d87accbcc1",
+      "bytes": 2165
+    },
+    {
+      "path": "modules/genesis-review-gate/docs/flow.svg",
+      "sha256": "319b4cf3706b3b2e6e65b13412306ce10aa790b563705abe7535cf970bed3a9c",
+      "bytes": 2460
+    },
+    {
+      "path": "modules/genesis-review-gate/examples/demo.cjs",
+      "sha256": "b00237889cfb0d45fbc54b892ddae93743886fec8360350b66b0084f9f68c557",
+      "bytes": 624
+    },
+    {
+      "path": "modules/genesis-review-gate/index.cjs",
+      "sha256": "e4f53a9febd9f99bd85021ae98ba54ac573535c2c4a7140ea9cb293dd4a56698",
+      "bytes": 14436
+    },
+    {
+      "path": "modules/genesis-review-gate/module-manifest.json",
+      "sha256": "624af8b852fe7d2a784d98cfaca23b62d79fa0d66dd6c0c9ac61923dba79becd",
+      "bytes": 1152
+    },
+    {
+      "path": "modules/genesis-review-gate/package.json",
+      "sha256": "4fe571ac0d30786a96aae0cffb3a70b1dbeac2e8e78783789b73600b18858eed",
+      "bytes": 355
+    },
+    {
+      "path": "modules/genesis-review-gate/test/review-gate.test.cjs",
+      "sha256": "72b33a492cb3c7ab60531c0d49f35f352eae9e7333ef6607c652581323b5f7b7",
+      "bytes": 6298
+    },
+    {
+      "path": "modules/genesis-routing-metrics/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-routing-metrics/.github/workflows/test.yml",
+      "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414",
+      "bytes": 361
+    },
+    {
+      "path": "modules/genesis-routing-metrics/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-routing-metrics/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-routing-metrics/README.md",
+      "sha256": "5ded90c360aafe2b19799a46d2b31f39ee4d549f3453d1ea5078a62831a6d5f5",
+      "bytes": 3342
+    },
+    {
+      "path": "modules/genesis-routing-metrics/docs/cover.svg",
+      "sha256": "8b74455b2e7447e68a1a8405b2e94fa19aa8bfc46f96785469680991a58e3696",
+      "bytes": 2020
+    },
+    {
+      "path": "modules/genesis-routing-metrics/examples/demo.cjs",
+      "sha256": "270b4b8f807fd1b005b92a0c46df9cf60b07b8265ecd6e88600d56d9e751b5c3",
+      "bytes": 359
+    },
+    {
+      "path": "modules/genesis-routing-metrics/index.cjs",
+      "sha256": "98be3a64319a823ee871ee0a14a9f1d2d570e62b2bd3a54cc2a7e901d9ae73d3",
+      "bytes": 11884
+    },
+    {
+      "path": "modules/genesis-routing-metrics/package.json",
+      "sha256": "332e2f611c5ee797ba5bf0050f7012035dc8052d0d4c22b5b77523334e7d8ddc",
+      "bytes": 380
+    },
+    {
+      "path": "modules/genesis-routing-metrics/test/index.test.cjs",
+      "sha256": "c5db5aef9bda145c2b4b7911a84a35151011ee8b6b485ecdb9634f9c324bf5cb",
+      "bytes": 9049
+    },
+    {
+      "path": "modules/genesis-source-packets/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-source-packets/.github/workflows/test.yml",
+      "sha256": "35f1959c137e247b81169f7706a377bf82ffe462290c4812be5c0481cc366414",
+      "bytes": 361
+    },
+    {
+      "path": "modules/genesis-source-packets/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-source-packets/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-source-packets/README.md",
+      "sha256": "80a85255ec64a450d9a75f3429c67823a41622f1c205248a40e1d983c6036efe",
+      "bytes": 3181
+    },
+    {
+      "path": "modules/genesis-source-packets/docs/cover.svg",
+      "sha256": "05626b8c1a6d17a22abc5fda1a86934ce1313f692528de89a214f748c9e075dc",
+      "bytes": 2008
+    },
+    {
+      "path": "modules/genesis-source-packets/examples/demo.cjs",
+      "sha256": "f753d32c813904d1291cab8c7ac653f087c2f1dd9c1f43e5aec370c4829c23c2",
+      "bytes": 191
+    },
+    {
+      "path": "modules/genesis-source-packets/index.cjs",
+      "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d",
+      "bytes": 10731
+    },
+    {
+      "path": "modules/genesis-source-packets/package.json",
+      "sha256": "87a49a7628d2cc2403277998126c81d6b69ccf256b6ea926275ab3eb7da4d063",
+      "bytes": 377
+    },
+    {
+      "path": "modules/genesis-source-packets/test/index.test.cjs",
+      "sha256": "51136f0d65c46632d416ed943d17db6076db69a09cfb8ada9fe57c66bc583173",
+      "bytes": 11456
+    },
+    {
+      "path": "modules/genesis-task-adaptation/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-task-adaptation/.gitignore",
+      "sha256": "f0a5367d32d90e1c053e0c9558bf9cdb8ef3de0b29159c7968cdfa0757dc2450",
+      "bytes": 50
+    },
+    {
+      "path": "modules/genesis-task-adaptation/CHANGELOG.md",
+      "sha256": "5daad41cb93f17a22956895d166da86d40bb4445986d993d0f3dad04f770f626",
+      "bytes": 86
+    },
+    {
+      "path": "modules/genesis-task-adaptation/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-task-adaptation/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-task-adaptation/README.md",
+      "sha256": "a9e45f9a6f8e84572e420c6f5b12c06f089f8784efc0ba46da447f2c4ada8af6",
+      "bytes": 7103
+    },
+    {
+      "path": "modules/genesis-task-adaptation/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-task-adaptation/VERIFICATION.md",
+      "sha256": "96c85d991fac7c8b43a3d5429c42a0bcd4ed8d44dcccfccc3a56ea3244ee7b7f",
+      "bytes": 781
+    },
+    {
+      "path": "modules/genesis-task-adaptation/docs/cover-v2.svg",
+      "sha256": "6ff9f51eebc0f6f6b8c3b5f80e8d6d77eb211cd4718817a4da6a533338295112",
+      "bytes": 2055
+    },
+    {
+      "path": "modules/genesis-task-adaptation/docs/flow-compact.svg",
+      "sha256": "010495fb1026335a7c0a595ca553cc69555c7dcc6ca93b2c61c36f1443a2eb95",
+      "bytes": 2151
+    },
+    {
+      "path": "modules/genesis-task-adaptation/docs/flow.svg",
+      "sha256": "dd15ded02d0ed7a72c2705395bfeefc0b052cc78d2c53d36520b8970a378625d",
+      "bytes": 2444
+    },
+    {
+      "path": "modules/genesis-task-adaptation/examples/demo.cjs",
+      "sha256": "d6dce69982d1922e1220aff7d7f1616574eddaa33d4a059bcf2af8b479c4c2ae",
+      "bytes": 1264
+    },
+    {
+      "path": "modules/genesis-task-adaptation/index.cjs",
+      "sha256": "304520c5ce36cf0f2d2271d1f034711cb0d241ce6a5bcc937f5bfbd3ac7b68e4",
+      "bytes": 12170
+    },
+    {
+      "path": "modules/genesis-task-adaptation/module-manifest.json",
+      "sha256": "88f827d4bd61d59f3fbbb0cff740aef4ef591aca4b445942316c7381fdd14b40",
+      "bytes": 740
+    },
+    {
+      "path": "modules/genesis-task-adaptation/package.json",
+      "sha256": "df37ffc7c59e5c6b7b49181009ee4f750b1eca15b4a17a37ae7edbcd22388000",
+      "bytes": 358
+    },
+    {
+      "path": "modules/genesis-task-adaptation/test/adaptation.test.cjs",
+      "sha256": "b55b43887773451196a89adc314232f1c613ba4e7e2f029718b23b348df88c09",
+      "bytes": 6648
+    },
+    {
+      "path": "modules/genesis-task-context/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-task-context/.github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": "modules/genesis-task-context/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-task-context/FILES.json",
+      "sha256": "1400fd059a0573a504387e7d16f167e63cbf8bad72df801fa2f1a72f3c706e1f",
+      "bytes": 2560
+    },
+    {
+      "path": "modules/genesis-task-context/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-task-context/LOCAL-VERIFICATION.json",
+      "sha256": "708017c53b6c004a136416cbd56c12f2511017c248c3eecd5bb7acce653fa09a",
+      "bytes": 581
+    },
+    {
+      "path": "modules/genesis-task-context/README.md",
+      "sha256": "27e6fd63fe2eefa4b82ba96d9d2981f3854485d0c145c465e2b51d5ba22db50a",
+      "bytes": 2363
+    },
+    {
+      "path": "modules/genesis-task-context/SOURCE-MANIFEST.json",
+      "sha256": "b6469e60dcffff07d724c23f1a0ef24af1f6b190063cf436530b63030038208b",
+      "bytes": 890
+    },
+    {
+      "path": "modules/genesis-task-context/docs/cover.svg",
+      "sha256": "0258f2c0abb370ba1061a95df48d224ae83b0a1dfa77a0bf510e9a28c6b398a7",
+      "bytes": 1308
+    },
+    {
+      "path": "modules/genesis-task-context/examples/demo.cjs",
+      "sha256": "8e3cf18c7012416e53253ce177332b1bfe3f1a208fd53c2657a47dd5b94c014d",
+      "bytes": 344
+    },
+    {
+      "path": "modules/genesis-task-context/examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "modules/genesis-task-context/index.cjs",
+      "sha256": "32b600a4114ad0fd7482a6cd6731a17b2644a0d19c6dcced11e3eadffbc4ff94",
+      "bytes": 72
+    },
+    {
+      "path": "modules/genesis-task-context/lib/genesis-source-packets.cjs",
+      "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d",
+      "bytes": 10731
+    },
+    {
+      "path": "modules/genesis-task-context/lib/genesis-task-context.cjs",
+      "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635",
+      "bytes": 15288
+    },
+    {
+      "path": "modules/genesis-task-context/package.json",
+      "sha256": "f26f35ec1d153b5a5ec1a262d23b6281eb15013b56c1d48eb8aa5b5bd34b753a",
+      "bytes": 456
+    },
+    {
+      "path": "modules/genesis-task-context/scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "modules/genesis-task-context/test/index.test.cjs",
+      "sha256": "d5bf0c7553848950226b15c09b720d99f0ec03233ce8dc21b88174ecbab2b2f3",
+      "bytes": 27379
+    },
+    {
+      "path": "modules/genesis-task-ledger/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-task-ledger/.gitignore",
+      "sha256": "0ef562c356fe7824f7df6c541219832a1364c933c1c552abf735c60fca24220e",
+      "bytes": 46
+    },
+    {
+      "path": "modules/genesis-task-ledger/CHANGELOG.md",
+      "sha256": "98fb7d64ef11513f1eb6a9e8bbbb6f113195c7ca1c0cf78fb58de339c1899800",
+      "bytes": 70
+    },
+    {
+      "path": "modules/genesis-task-ledger/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-task-ledger/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-task-ledger/README.md",
+      "sha256": "d6fb308b4a8a3c4e24cc525956b98bb6cafa685ea5a2721face1ae4328bf4aef",
+      "bytes": 6970
+    },
+    {
+      "path": "modules/genesis-task-ledger/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-task-ledger/VERIFICATION.md",
+      "sha256": "1ade6a8cfe7dadb8d8e7825da41fa74962ad70f965c527e28de41005760db874",
+      "bytes": 781
+    },
+    {
+      "path": "modules/genesis-task-ledger/docs/cover-v2.svg",
+      "sha256": "aa64e48ca2a444dcea91963570840d1c7930cfd1dc52b98be958d1d028ff3478",
+      "bytes": 2045
+    },
+    {
+      "path": "modules/genesis-task-ledger/docs/flow-compact.svg",
+      "sha256": "ce696525b9b489febec743fa6b80564bf63f40a96464bfb4ec59e1299a6b829f",
+      "bytes": 2155
+    },
+    {
+      "path": "modules/genesis-task-ledger/docs/flow.svg",
+      "sha256": "e4a458b7514eb161201708d87360ceba36895fd87a3cff73c9ccbce8bd7e3ace",
+      "bytes": 2442
+    },
+    {
+      "path": "modules/genesis-task-ledger/examples/demo.cjs",
+      "sha256": "a7140b3e9c9b9b8475a3150e912b0d62c24ee9627d15071b17556313b7c74ed0",
+      "bytes": 1426
+    },
+    {
+      "path": "modules/genesis-task-ledger/index.cjs",
+      "sha256": "3bc94cfde7a7be149252169898ac43befe06f62fe4a3e3b052be5fca524a5cf0",
+      "bytes": 14415
+    },
+    {
+      "path": "modules/genesis-task-ledger/module-manifest.json",
+      "sha256": "c9bb61a9c8a510e3c0616bbc1a033267650ef6f160dc44be6aafc346ac02a027",
+      "bytes": 1205
+    },
+    {
+      "path": "modules/genesis-task-ledger/package.json",
+      "sha256": "61c2b345d1891ea7a9ae850721e85f6f38efee89e381344545656e9e9edb42eb",
+      "bytes": 361
+    },
+    {
+      "path": "modules/genesis-task-ledger/test/ledger.test.cjs",
+      "sha256": "709cf3ef60bb3c1826945d8d259142135d44fd280fef91d095bd50acececa802",
+      "bytes": 12774
+    },
+    {
+      "path": "modules/genesis-verified-reuse/.gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": "modules/genesis-verified-reuse/.github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": "modules/genesis-verified-reuse/.gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "modules/genesis-verified-reuse/FILES.json",
+      "sha256": "9eb938aa0a9eb8fe5e1f27d6f2a5f7d7061a29c73991096e98a4c5a483437de8",
+      "bytes": 2566
+    },
+    {
+      "path": "modules/genesis-verified-reuse/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-verified-reuse/LOCAL-VERIFICATION.json",
+      "sha256": "200a4c3cd63eb5f22139d19223966146a7ea707fad457456c5fef94615b348f7",
+      "bytes": 581
+    },
+    {
+      "path": "modules/genesis-verified-reuse/README.md",
+      "sha256": "2dc52460d4015d1e526f286bc26fa825f5474afb17d36e2f992cbf845f643fc4",
+      "bytes": 2481
+    },
+    {
+      "path": "modules/genesis-verified-reuse/SOURCE-MANIFEST.json",
+      "sha256": "c9a1bc513968cdae5b92ec56945e326ae1eb47a9efac95ef4e83ad8dc2ddd6be",
+      "bytes": 770
+    },
+    {
+      "path": "modules/genesis-verified-reuse/docs/cover.svg",
+      "sha256": "f122abb448f365a257cce19f291f18a7232eb55c1580fb706539660213166fa3",
+      "bytes": 1324
+    },
+    {
+      "path": "modules/genesis-verified-reuse/examples/demo.cjs",
+      "sha256": "fb524d1070c560519621cc2edc0d8e83c2b2f448f0160e404e90a53a18d322c5",
+      "bytes": 2010
+    },
+    {
+      "path": "modules/genesis-verified-reuse/examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "modules/genesis-verified-reuse/index.cjs",
+      "sha256": "11181623b6a21afbf17340c9ef8d36b5b454cb2d4061e9366d31aa48b158e00c",
+      "bytes": 74
+    },
+    {
+      "path": "modules/genesis-verified-reuse/lib/genesis-evidence-collector.cjs",
+      "sha256": "613c0f16b63634e1e975b71a10adb99c00f4b32ae332b918f46a4cfdbb382f56",
+      "bytes": 6401
+    },
+    {
+      "path": "modules/genesis-verified-reuse/lib/genesis-verified-reuse.cjs",
+      "sha256": "1ca33cfc4fbf3ff3419e4c3d08bae922dd2adfdc80afadf45a80ef002d90d099",
+      "bytes": 17021
+    },
+    {
+      "path": "modules/genesis-verified-reuse/package.json",
+      "sha256": "52dad293d0ed7ca22b894a4199449b7e7aadd4f949bc8de283cda4c616f42323",
+      "bytes": 462
+    },
+    {
+      "path": "modules/genesis-verified-reuse/scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "modules/genesis-verified-reuse/test/index.test.cjs",
+      "sha256": "03c10d089727c7628f923ff0486fb0fddcdeff3d6008d334c284765ee8c5f25a",
+      "bytes": 24272
+    },
+    {
+      "path": "modules/genesis-worker-router/.gitattributes",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    {
+      "path": "modules/genesis-worker-router/.gitignore",
+      "sha256": "2f9aebd7a15d0a9e62d69bff1c888bb93ec5eab506a9db272de622defda4735c",
+      "bytes": 30
+    },
+    {
+      "path": "modules/genesis-worker-router/CHANGELOG.md",
+      "sha256": "6800cb1cf4771f84d7bf9302bdf9c5a7b57cb98de8f428255c1cf23b7cceb729",
+      "bytes": 87
+    },
+    {
+      "path": "modules/genesis-worker-router/CONTRIBUTING.md",
+      "sha256": "08f2d149b78dc022052e679209269cace0fee131904fc2136a9492b6ca98f9ad",
+      "bytes": 479
+    },
+    {
+      "path": "modules/genesis-worker-router/LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "modules/genesis-worker-router/README.md",
+      "sha256": "8816378a159b0dd83c964d97f0c033ebd53a544092846a40d5eabfef1bcc2c74",
+      "bytes": 7022
+    },
+    {
+      "path": "modules/genesis-worker-router/SECURITY.md",
+      "sha256": "fbc6689bce18747264a86d83b366212d9dc399a4bcc177f46bf69572dae2dfa6",
+      "bytes": 616
+    },
+    {
+      "path": "modules/genesis-worker-router/VERIFICATION.md",
+      "sha256": "45eeb7ed7bec7d88137f319d2013f542a446833f8cbe93132eb172cd6869dd04",
+      "bytes": 781
+    },
+    {
+      "path": "modules/genesis-worker-router/docs/cover-v2.svg",
+      "sha256": "c9840c7cb47cbf3962731d39155aedbe33f04925b7e22f69fdfed1b00063fa9c",
+      "bytes": 2041
+    },
+    {
+      "path": "modules/genesis-worker-router/docs/flow-compact.svg",
+      "sha256": "ca94fc31a7613b3d8747bfb6e14487bc9e9bb439e42e71e44cf092ce36653205",
+      "bytes": 2155
+    },
+    {
+      "path": "modules/genesis-worker-router/docs/flow.svg",
+      "sha256": "8e120f264317d32204474580fa58fb2e8a0c2db190d6f04d634b7fb4602747f6",
+      "bytes": 2452
+    },
+    {
+      "path": "modules/genesis-worker-router/examples/demo.cjs",
+      "sha256": "c6bd483223c9488a82413b580160494de15dc5e0c0945c321c78f57b5874bffe",
+      "bytes": 516
+    },
+    {
+      "path": "modules/genesis-worker-router/index.cjs",
+      "sha256": "b2d5b955b652d280edd897be4e51a34f59c61762ee287ad8294ce20d1422d033",
+      "bytes": 16062
+    },
+    {
+      "path": "modules/genesis-worker-router/module-manifest.json",
+      "sha256": "a1a607ad8e5c76263cd594a8cb8e5c0cfcd02bec9582bdfde364618a865b899c",
+      "bytes": 864
+    },
+    {
+      "path": "modules/genesis-worker-router/package.json",
+      "sha256": "c13231819bfad85c7ca7965b4e7d343c905fb227b674fc4c520d1bee7a426f20",
+      "bytes": 363
+    },
+    {
+      "path": "modules/genesis-worker-router/test/router.test.cjs",
+      "sha256": "ae5a956a92a11b5940aa2fa0e39ab2beb86164eee07cdadfa59b4e5234b55f1f",
+      "bytes": 6565
+    },
+    {
+      "path": "package.json",
+      "sha256": "8bf969736edcfea692b89d3a45b325e5a9717cb841853e318783b6181464c5f6",
+      "bytes": 426
+    },
+    {
+      "path": "scripts/test-all.cjs",
+      "sha256": "63d477b2fe73bd69b94d48adb6b7f890a6ff1f957afd6c6ed5064fb01e628eaf",
+      "bytes": 857
+    },
+    {
+      "path": "scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "test/efficiency-controls.test.cjs",
+      "sha256": "7e9b2fe228a4c8772e7f630aaa4eca260b7e505245efa42d7be74f72e4705584",
+      "bytes": 837
+    },
+    {
+      "path": "test/integration.test.cjs",
+      "sha256": "ea4410a6bcea8283d390b7e7601652d513c372bb7fe7f2361763f63879050a6f",
+      "bytes": 7330
+    },
+    {
+      "path": "test/module-lock.test.cjs",
+      "sha256": "027b37fb74b7f6a4c8cf82feb32fa1ca19e7b1b3425c4c2636c85f4e3ef21e76",
+      "bytes": 853
+    },
+    {
+      "path": "test/task-controls.test.cjs",
+      "sha256": "c6b1d2db28f3ea7466ff97d10dace2de7c3d6442524f64cd6e30a7e605f29ab9",
+      "bytes": 845
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema": "genesis-portable-source-inputs-v1",
+  "inputs": [
+    {
+      "path": "lib/genesis-task-context.cjs",
+      "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "lib/genesis-source-packets.cjs",
+      "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d",
+      "adaptation": "Copied unchanged"
+    },
+    {
+      "path": "test/index.test.cjs",
+      "sourceSha256": "ee4465a134674a10822d55c0fbd9b3a25a3dd0106c2f44ed7921546ff3bed23f",
+      "adaptation": "Local import prefix adapted; extra extension removed from the synthetic example.invalid email-label filename to retain the same rejection while avoiding a false non-example-domain scan."
+    }
+  ],
+  "licenses": "Original CommonJS code with built-in Node modules; MIT; no bundled third-party npm code."
+}

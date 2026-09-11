@@ -12,13 +12,5 @@
     "demo": "node examples/demo.cjs"
   },
   "license": "MIT",
-  "author": "Genesis Contributors",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Wassimyounes01/genesis-night-research.git"
-  },
-  "homepage": "https://github.com/Wassimyounes01/genesis-night-research#readme",
-  "bugs": {
-    "url": "https://github.com/Wassimyounes01/genesis-night-research/issues"
-  }
+  "author": "Genesis Contributors"
 }

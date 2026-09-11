@@ -51,11 +51,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "cc7cf6a85a885493c064eb78e31654a3a3ddcd2305268de156cdf62ea6bc26dc"
+          "sha256": "61c2b345d1891ea7a9ae850721e85f6f38efee89e381344545656e9e9edb42eb"
         },
         {
           "path": "README.md",
-          "sha256": "6343237a8e9bda03d6ab24f5de47f795a708398a6d5d01c112a60233d1c8f3cb"
+          "sha256": "d6fb308b4a8a3c4e24cc525956b98bb6cafa685ea5a2721face1ae4328bf4aef"
         },
         {
           "path": "SECURITY.md",
@@ -121,11 +121,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "ff79e03e3a67b31f422b7f75d96eee892f15d65dec70da8eda9754e2f10799c9"
+          "sha256": "8721ae07d7002655164a9dbdf25d281670cc96ee0377f58962c8446cb8929bf4"
         },
         {
           "path": "README.md",
-          "sha256": "403dbd445ae6ed45aa513ad6af7c7407e1dbdbd773fd5536652d3247772c42bd"
+          "sha256": "3ef98316d52c0f22addf32828cd6651cb2556ff6db252018c0d0c6ee191cd8ac"
         },
         {
           "path": "SECURITY.md",
@@ -191,11 +191,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "23e3e6a00e170b4fe05d91476e30ce7831dbd8bbc09058f07f7a96cfbcc2a7c1"
+          "sha256": "df37ffc7c59e5c6b7b49181009ee4f750b1eca15b4a17a37ae7edbcd22388000"
         },
         {
           "path": "README.md",
-          "sha256": "f1d8f71621fcdca5f59a5d724661fb118daf6ba0df557b456198f62c4b0dfd66"
+          "sha256": "a9e45f9a6f8e84572e420c6f5b12c06f089f8784efc0ba46da447f2c4ada8af6"
         },
         {
           "path": "SECURITY.md",
@@ -261,11 +261,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "57ebedaf36bc57d2a97343c9e2ea92b6311de1df570f6e293e9d70919d5c3201"
+          "sha256": "fea194acaf04d814ce30818f3f102df7fbaf8d54608064bc9fe9cf8faf7d0c97"
         },
         {
           "path": "README.md",
-          "sha256": "3b56149ebb68ad5bedde6d84069709850f92fa765c4119696681b87a4f23b1fb"
+          "sha256": "158b009cc0f179cd68547785a10ccc29aef0aa539ae277f963560a482cef1ad4"
         },
         {
           "path": "SECURITY.md",
@@ -331,11 +331,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "2492ea9ebdc364ea1754519123072a124e83b59f95aef68a038b63a8f8f51d26"
+          "sha256": "c13231819bfad85c7ca7965b4e7d343c905fb227b674fc4c520d1bee7a426f20"
         },
         {
           "path": "README.md",
-          "sha256": "31d38a88e2d6d986249e259211cae519c539dfbd146f48cbefeb0c185b0ff6aa"
+          "sha256": "8816378a159b0dd83c964d97f0c033ebd53a544092846a40d5eabfef1bcc2c74"
         },
         {
           "path": "SECURITY.md",
@@ -401,11 +401,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "5144795818568b659d185f2c11747173f4393df97ef4b51b2b7ab5addc14dc11"
+          "sha256": "f21984f95b59dacd9d2ea72fc54e9b496106e4cf6545b8e2ad69d624e6a08d91"
         },
         {
           "path": "README.md",
-          "sha256": "6c1ab88636fc3bc496482e5bca75d7dc728201d60d179e6db3e80bf4c99149b2"
+          "sha256": "3a1e127d86e57003628ead281bfa68ab4f7b2b3fe70b6e7a46a3a0380ac1cbf7"
         },
         {
           "path": "SECURITY.md",
@@ -471,11 +471,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "3d59e52b67bddf2abfb2fde79d7a158b010df0ce6b6a6ce7aa7896e53906e537"
+          "sha256": "911b70d38657fe64b8d77b07797612a664183f981b147aa061ac3f54729b6d0e"
         },
         {
           "path": "README.md",
-          "sha256": "3c583c0b188963ca4eef4db18532da9a978902c27864bb01ab1e788f515b258a"
+          "sha256": "f69c4d92c1811ddde025d8a7a8f831b11d7c03fe2023271a62fef449e7b80105"
         },
         {
           "path": "SECURITY.md",
@@ -541,11 +541,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "de5c7aa584046af5e7afdc877c6409965883b4364a2fd041317a781ce1539553"
+          "sha256": "4fe571ac0d30786a96aae0cffb3a70b1dbeac2e8e78783789b73600b18858eed"
         },
         {
           "path": "README.md",
-          "sha256": "4924b5916f9584e066ec871f90561dd313dde7e2c1d2b114c19e8515438d327e"
+          "sha256": "00427d5d059e062aa763506452c6d37bbf14564e674e3cb89b8018208bcacc65"
         },
         {
           "path": "SECURITY.md",
@@ -611,11 +611,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "52473a6b8b6a70dcceea64c37e0ff9b9971672aa810671c9b33c89ba99e2bb9a"
+          "sha256": "acc35ad00d8735886e664d2206e6fb280d98ff572f6fd265f581e92b358a95df"
         },
         {
           "path": "README.md",
-          "sha256": "fa16a55855285740720de030031a0aff83952e012f64f46762ddd789c104591a"
+          "sha256": "64d6e2e25c550167d7ff43f810ae964c9cba5dde9f7d0263dbc90167979e2386"
         },
         {
           "path": "SECURITY.md",
@@ -657,7 +657,7 @@
         },
         {
           "path": "docs/DESIGN-TRIAL.md",
-          "sha256": "624648531e0d2ef872719e7390be9a7b20a73fd89bd014d7b3841b35c513a08e"
+          "sha256": "1620c4087111c6c0d815882c8dc5ed2fd39f4a37d7a445a85bc841d71b01af36"
         },
         {
           "path": "docs/flow-compact.svg",
@@ -669,7 +669,7 @@
         },
         {
           "path": "docs/FOUNDATIONS.md",
-          "sha256": "1975e2714f4bf194a44e95f07281dcc5c2ff18564649ad42bac4fb8b13803854"
+          "sha256": "adc633bc505cee574b526e12fded73f4101ad60bd44deec8957302c0e2dcc971"
         },
         {
           "path": "docs/REPOSITORY-DESIGN-PROMPT.md",
@@ -697,11 +697,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "6f4e68481411bd490494847fa2c47dc0d543d66b520d21293b16f6bb553062d1"
+          "sha256": "9c6b8f50e493aa2563c317111c3257f3e252f04bd4f6104babe07ba78d144c9f"
         },
         {
           "path": "README.md",
-          "sha256": "7e0b57de3aa110bb861a2dbe94ea733fc780587a19e8dbcb85f0083008690deb"
+          "sha256": "938e51c5f73d8614b1e1bb37e7443ade9c440be9aaf7735d259add2c60f632c4"
         },
         {
           "path": "repository-design.cjs",
@@ -731,11 +731,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "f215ac66a69c23d9cceaa32c38b10f2311b463fd9b7065d95914e7abf86b6de2"
+          "sha256": "87a49a7628d2cc2403277998126c81d6b69ccf256b6ea926275ab3eb7da4d063"
         },
         {
           "path": "README.md",
-          "sha256": "077d846bac2569f909397c428eeb33e7448ecee01d41b18ee18118bd9d371e31"
+          "sha256": "80a85255ec64a450d9a75f3429c67823a41622f1c205248a40e1d983c6036efe"
         },
         {
           "path": "LICENSE",
@@ -777,11 +777,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "81ed2586ae5a2df183b790eaffa7a591c7d8baac3bed0340a5b23fb2b32bce85"
+          "sha256": "965aab1a1926cb1e4a73aca34be830d481e542c75fbe1a739cd7bbc83b235c05"
         },
         {
           "path": "README.md",
-          "sha256": "aedbe451508cc87db2c703db0763c7a52d46f7eee6ed4020fa6b54090224c159"
+          "sha256": "d23bc839c624bea0089d76ce02f9f878f595212ea1db55c69d04b1f3ad154a6c"
         },
         {
           "path": "LICENSE",
@@ -823,11 +823,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "577940fba9b050578287912d8bb62b76df337647de86ae52a8538f01ef4d520a"
+          "sha256": "a2c405ddbbb43b6b3bde73fee06b6c66a2ef73d86ca2664b7ada6b4fcff5d5fa"
         },
         {
           "path": "README.md",
-          "sha256": "d5274627d6fc78a5ff5791ac5c1f4005120f1aa77f4a56be62e71cb586033aac"
+          "sha256": "4f5ccd6bca8e8553851422d9019d9b8e85ece7e60a8e0527e610efbdfc0ff12c"
         },
         {
           "path": "LICENSE",
@@ -869,11 +869,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "89e87c329708125d7813f93560345d174d6c9490665cc2478b5abe39aeae3e12"
+          "sha256": "332e2f611c5ee797ba5bf0050f7012035dc8052d0d4c22b5b77523334e7d8ddc"
         },
         {
           "path": "README.md",
-          "sha256": "8388dd83b49091628bd22fc007be30a9c82f14e7c91630fd318cb615c7b45dfa"
+          "sha256": "5ded90c360aafe2b19799a46d2b31f39ee4d549f3453d1ea5078a62831a6d5f5"
         },
         {
           "path": "LICENSE",
@@ -915,11 +915,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "e42ecaf38057d8e346a842412d597883fbf8bd302cd89c7cce5a546a8e15237f"
+          "sha256": "f5c90148dd7d7f61a0207686cc75bda44ceb4f6fa12227c638551cb12fff766b"
         },
         {
           "path": "README.md",
-          "sha256": "d284ce029c975a68cebf2bc483db399df6d6ba86d71a225fd3d294320d205b45"
+          "sha256": "81147f0da092852611b4a9eefaeb466874dccc7918092c7dd7f6b2a976e19729"
         },
         {
           "path": "LICENSE",
@@ -961,11 +961,11 @@
         },
         {
           "path": "package.json",
-          "sha256": "e23c495742d1e8cbd571fd893e0799c8334285b552301069f28e17938059564e"
+          "sha256": "b72ed4f0b962aa24e2ce73cf4734379826850626da8b9e66f5634dd5aef70d8e"
         },
         {
           "path": "README.md",
-          "sha256": "5f57ba57f42de6e5aff49aacb0115a9320f0ff9da576d8285bd09a938bb68f08"
+          "sha256": "3f2f648a43bc165e51a3793c06ce6d12294645f57c066df2973cc5d054c0e844"
         },
         {
           "path": "LICENSE",
@@ -994,6 +994,376 @@
         {
           "path": "docs/cover.svg",
           "sha256": "81cb3beb4ab467c226cd0b3601aab33e27db28ddce6e6523065bb9b5a823a632"
+        }
+      ]
+    },
+    {
+      "name": "genesis-task-context",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+        },
+        {
+          "path": ".github/workflows/test.yml",
+          "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1"
+        },
+        {
+          "path": ".gitignore",
+          "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "LOCAL-VERIFICATION.json",
+          "sha256": "708017c53b6c004a136416cbd56c12f2511017c248c3eecd5bb7acce653fa09a"
+        },
+        {
+          "path": "README.md",
+          "sha256": "27e6fd63fe2eefa4b82ba96d9d2981f3854485d0c145c465e2b51d5ba22db50a"
+        },
+        {
+          "path": "SOURCE-MANIFEST.json",
+          "sha256": "b6469e60dcffff07d724c23f1a0ef24af1f6b190063cf436530b63030038208b"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "0258f2c0abb370ba1061a95df48d224ae83b0a1dfa77a0bf510e9a28c6b398a7"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "8e3cf18c7012416e53253ce177332b1bfe3f1a208fd53c2657a47dd5b94c014d"
+        },
+        {
+          "path": "examples/source.cjs",
+          "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "32b600a4114ad0fd7482a6cd6731a17b2644a0d19c6dcced11e3eadffbc4ff94"
+        },
+        {
+          "path": "lib/genesis-source-packets.cjs",
+          "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d"
+        },
+        {
+          "path": "lib/genesis-task-context.cjs",
+          "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635"
+        },
+        {
+          "path": "package.json",
+          "sha256": "f26f35ec1d153b5a5ec1a262d23b6281eb15013b56c1d48eb8aa5b5bd34b753a"
+        },
+        {
+          "path": "scripts/verify-release.cjs",
+          "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95"
+        },
+        {
+          "path": "test/index.test.cjs",
+          "sha256": "d5bf0c7553848950226b15c09b720d99f0ec03233ce8dc21b88174ecbab2b2f3"
+        },
+        {
+          "path": "FILES.json",
+          "sha256": "1400fd059a0573a504387e7d16f167e63cbf8bad72df801fa2f1a72f3c706e1f"
+        }
+      ]
+    },
+    {
+      "name": "genesis-constraint-compiler",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+        },
+        {
+          "path": ".github/workflows/test.yml",
+          "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1"
+        },
+        {
+          "path": ".gitignore",
+          "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344"
+        },
+        {
+          "path": "FILES.json",
+          "sha256": "7e043eec5cef64b533a1e66b983b7446e768b4343d126eacad60247a13924415"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "LOCAL-VERIFICATION.json",
+          "sha256": "b452ada4784b4499c62cbc643f1df6526ca94014496e297782da336aa47a7311"
+        },
+        {
+          "path": "README.md",
+          "sha256": "fd1f85954cd4469a9d6cd19fee09fc14caf237b31017aa6bb7324804e1978427"
+        },
+        {
+          "path": "SOURCE-MANIFEST.json",
+          "sha256": "e01ca1053bfd7ffa7a2bf991a2ccd1530e2f1f5971150f88a756314c528712b6"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "77e7be571b64e15179f39dbccd148499a31103b2e74005fdb35c1986334fc10d"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "a40f19f75ea202b8b94ca0396fe5415f66756d439e4c710667ed2738550d1c49"
+        },
+        {
+          "path": "examples/source.cjs",
+          "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "31196b2f944fc5193522cda800635e95c1046fbb1db587fea4cad53eed4f86a2"
+        },
+        {
+          "path": "lib/genesis-constraint-compiler.cjs",
+          "sha256": "b2eee2746d294ad97ef0e9d14932764e5f9c4631c9f45b31a65ab97a5aa2bc3b"
+        },
+        {
+          "path": "package.json",
+          "sha256": "3e090522b6e86fadc4f58459482e3d7aa5b26e46b1488fa2066d282f58b30611"
+        },
+        {
+          "path": "scripts/verify-release.cjs",
+          "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95"
+        },
+        {
+          "path": "test/index.test.cjs",
+          "sha256": "c1fac96d0f93293252a3d548ef2e9b58419b7c4c570c2395a95b1f1fc1398391"
+        }
+      ]
+    },
+    {
+      "name": "genesis-verified-reuse",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+        },
+        {
+          "path": ".github/workflows/test.yml",
+          "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1"
+        },
+        {
+          "path": ".gitignore",
+          "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344"
+        },
+        {
+          "path": "FILES.json",
+          "sha256": "9eb938aa0a9eb8fe5e1f27d6f2a5f7d7061a29c73991096e98a4c5a483437de8"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "LOCAL-VERIFICATION.json",
+          "sha256": "200a4c3cd63eb5f22139d19223966146a7ea707fad457456c5fef94615b348f7"
+        },
+        {
+          "path": "README.md",
+          "sha256": "2dc52460d4015d1e526f286bc26fa825f5474afb17d36e2f992cbf845f643fc4"
+        },
+        {
+          "path": "SOURCE-MANIFEST.json",
+          "sha256": "c9a1bc513968cdae5b92ec56945e326ae1eb47a9efac95ef4e83ad8dc2ddd6be"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "f122abb448f365a257cce19f291f18a7232eb55c1580fb706539660213166fa3"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "fb524d1070c560519621cc2edc0d8e83c2b2f448f0160e404e90a53a18d322c5"
+        },
+        {
+          "path": "examples/source.cjs",
+          "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "11181623b6a21afbf17340c9ef8d36b5b454cb2d4061e9366d31aa48b158e00c"
+        },
+        {
+          "path": "lib/genesis-evidence-collector.cjs",
+          "sha256": "613c0f16b63634e1e975b71a10adb99c00f4b32ae332b918f46a4cfdbb382f56"
+        },
+        {
+          "path": "lib/genesis-verified-reuse.cjs",
+          "sha256": "1ca33cfc4fbf3ff3419e4c3d08bae922dd2adfdc80afadf45a80ef002d90d099"
+        },
+        {
+          "path": "package.json",
+          "sha256": "52dad293d0ed7ca22b894a4199449b7e7aadd4f949bc8de283cda4c616f42323"
+        },
+        {
+          "path": "scripts/verify-release.cjs",
+          "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95"
+        },
+        {
+          "path": "test/index.test.cjs",
+          "sha256": "03c10d089727c7628f923ff0486fb0fddcdeff3d6008d334c284765ee8c5f25a"
+        }
+      ]
+    },
+    {
+      "name": "genesis-paired-experiments",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+        },
+        {
+          "path": ".github/workflows/test.yml",
+          "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1"
+        },
+        {
+          "path": ".gitignore",
+          "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344"
+        },
+        {
+          "path": "FILES.json",
+          "sha256": "d196167420fc6508b3a621891ca88ac5b21572f4b66c69a64395bc0fcb6d6ca2"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "LOCAL-VERIFICATION.json",
+          "sha256": "12c42d8aa2b03c865d5fea88d333368ad6133f1258e413d84ed411951ab2caf0"
+        },
+        {
+          "path": "README.md",
+          "sha256": "049a16601f3fabab6641bcd8102e3301261129bf9e978fe70728191ff124e51d"
+        },
+        {
+          "path": "SOURCE-MANIFEST.json",
+          "sha256": "bdf255d7f4a140825c2838241c34d3c656b35979c1ef9289dbff07f10ac88dc5"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "e470bcff596b98403890e5cdb92e61b100932efb068e343914928c6b1ea569c3"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "d3ca546fb87e1a48088c168653beaafd29178ce40c56006ff3450a5af0202cfb"
+        },
+        {
+          "path": "examples/source.cjs",
+          "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "ee05084d17bb02541ffa455b22b60ceb88b5f98f40378aacca9bc1576aa53e43"
+        },
+        {
+          "path": "lib/genesis-paired-experiments.cjs",
+          "sha256": "87608a8d0b55985f80b8a93060e5aaf618aa6ae54dc906991fae46601b84f5d0"
+        },
+        {
+          "path": "package.json",
+          "sha256": "04e407653f286089d74ecb885c2adaa4e0899cf418416030ced4abf2b8ca446f"
+        },
+        {
+          "path": "scripts/verify-release.cjs",
+          "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95"
+        },
+        {
+          "path": "test/index.test.cjs",
+          "sha256": "6dd1bae68aee7b4fa6c5ee80ff6cc385cc8aca60f227b31a9157eec302f3a6c0"
+        }
+      ]
+    },
+    {
+      "name": "genesis-batch-drafts",
+      "version": "1.0.0",
+      "files": [
+        {
+          "path": ".gitattributes",
+          "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c"
+        },
+        {
+          "path": ".github/workflows/test.yml",
+          "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1"
+        },
+        {
+          "path": ".gitignore",
+          "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344"
+        },
+        {
+          "path": "FILES.json",
+          "sha256": "a92db53f7c8ccd78ce5083cc2d7eed64f4127cec81a84baf5df89091ffb12ae4"
+        },
+        {
+          "path": "LICENSE",
+          "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676"
+        },
+        {
+          "path": "LOCAL-VERIFICATION.json",
+          "sha256": "344d22c586b770509228f29e017275883294afcae36ecaaec0599caabe9839f1"
+        },
+        {
+          "path": "README.md",
+          "sha256": "a95b8f17904ce321a8a6fe4d6b65e6a4b578a0c7040251f366c9b8ed0317d2f5"
+        },
+        {
+          "path": "SOURCE-MANIFEST.json",
+          "sha256": "bea85fe7f20724a741f3c61c021f0c843dbcea2126c71a46c700bc12b47271ba"
+        },
+        {
+          "path": "docs/cover.svg",
+          "sha256": "aca7d1ccc2800589eeb1f6a00dbfa5e7923a7dcbfc6f872e85ef7292dbb80b11"
+        },
+        {
+          "path": "examples/demo.cjs",
+          "sha256": "eee168dddd3df47346896d166aee5dbdc4b9ab7e8adc0b7990ead170b18eb1cb"
+        },
+        {
+          "path": "examples/source.cjs",
+          "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5"
+        },
+        {
+          "path": "index.cjs",
+          "sha256": "3652aee0e6c61181835fcf68c91bdaae88a74d16b38309b1a015f18441759200"
+        },
+        {
+          "path": "lib/genesis-batch-drafts.cjs",
+          "sha256": "9c6332a8e69ce142e458942ffdc054aa276fdcc21a8b7664a032af8040eb0f9e"
+        },
+        {
+          "path": "lib/genesis-constraint-compiler.cjs",
+          "sha256": "b2eee2746d294ad97ef0e9d14932764e5f9c4631c9f45b31a65ab97a5aa2bc3b"
+        },
+        {
+          "path": "lib/genesis-source-packets.cjs",
+          "sha256": "b42f3e57cef2acd853bcc60a66d1932295e3a3551d7d070200ae69c260a3db4d"
+        },
+        {
+          "path": "lib/genesis-task-context.cjs",
+          "sha256": "fa9beaa09f2bb3c767fd805292b5e21781ed94e2c82983f5d6080abd415aa635"
+        },
+        {
+          "path": "package.json",
+          "sha256": "fc55703a796bad85440de905e4c425c1dae51d9f89a2c2182bbc6511c84cb77a"
+        },
+        {
+          "path": "scripts/verify-release.cjs",
+          "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95"
+        },
+        {
+          "path": "test/index.test.cjs",
+          "sha256": "a9c07c462e77bcb20c983ab190f8aea1c05b1be24207750d3f3beed1e29e8450"
         }
       ]
     }

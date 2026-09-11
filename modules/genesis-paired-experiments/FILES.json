@@ -1,0 +1,81 @@
+{
+  "schema": "genesis-local-release-inventory-v1",
+  "self": "FILES.json is intentionally not self-hashed",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "d60f352d0db1404c70afb4bb8b2ca3fd1c610572aa40720e8a0b7baa7885418c",
+      "bytes": 19
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "sha256": "b225bee2213c9ff123eebe2ebf358901c9d3668593947df42b70bdfe2f8ea6c1",
+      "bytes": 431
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "64e56759d4f2b095490075113997bdd0b74205326b53a58556d26812cbcb5344",
+      "bytes": 26
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "0ad6838edec7feb1a67c901cc9dfb02260d638e0ccba8c6ce366c2a8aa4fa676",
+      "bytes": 1077
+    },
+    {
+      "path": "LOCAL-VERIFICATION.json",
+      "sha256": "12c42d8aa2b03c865d5fea88d333368ad6133f1258e413d84ed411951ab2caf0",
+      "bytes": 581
+    },
+    {
+      "path": "README.md",
+      "sha256": "049a16601f3fabab6641bcd8102e3301261129bf9e978fe70728191ff124e51d",
+      "bytes": 2475
+    },
+    {
+      "path": "SOURCE-MANIFEST.json",
+      "sha256": "bdf255d7f4a140825c2838241c34d3c656b35979c1ef9289dbff07f10ac88dc5",
+      "bytes": 586
+    },
+    {
+      "path": "docs/cover.svg",
+      "sha256": "e470bcff596b98403890e5cdb92e61b100932efb068e343914928c6b1ea569c3",
+      "bytes": 1346
+    },
+    {
+      "path": "examples/demo.cjs",
+      "sha256": "d3ca546fb87e1a48088c168653beaafd29178ce40c56006ff3450a5af0202cfb",
+      "bytes": 1002
+    },
+    {
+      "path": "examples/source.cjs",
+      "sha256": "a49ae258fcb93c4dcba629709ca08a2f7aae2d1251ebb5ad99b39a86701490d5",
+      "bytes": 63
+    },
+    {
+      "path": "index.cjs",
+      "sha256": "ee05084d17bb02541ffa455b22b60ceb88b5f98f40378aacca9bc1576aa53e43",
+      "bytes": 78
+    },
+    {
+      "path": "lib/genesis-paired-experiments.cjs",
+      "sha256": "87608a8d0b55985f80b8a93060e5aaf618aa6ae54dc906991fae46601b84f5d0",
+      "bytes": 16731
+    },
+    {
+      "path": "package.json",
+      "sha256": "04e407653f286089d74ecb885c2adaa4e0899cf418416030ced4abf2b8ca446f",
+      "bytes": 470
+    },
+    {
+      "path": "scripts/verify-release.cjs",
+      "sha256": "242a1c2cfc5ffd619b4a98a4283eada907933ec99e209a5e69cdd6b44c7c3e95",
+      "bytes": 1121
+    },
+    {
+      "path": "test/index.test.cjs",
+      "sha256": "6dd1bae68aee7b4fa6c5ee80ff6cc385cc8aca60f227b31a9157eec302f3a6c0",
+      "bytes": 12463
+    }
+  ]
+}

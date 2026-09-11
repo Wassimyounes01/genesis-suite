@@ -1,0 +1,54 @@
+{
+  "schema": "genesis-local-suite-verification-v1",
+  "runtime": "v24.14.0",
+  "platform": "win32",
+  "components": 21,
+  "tests": {
+    "command": "node scripts/test-all.cjs",
+    "exitCode": 0,
+    "tests": 336,
+    "passed": 336,
+    "failed": 0,
+    "skipped": 0
+  },
+  "demoExitCode": 0,
+  "additionalPackages": [
+    {
+      "name": "genesis-task-context",
+      "tests": 35,
+      "passed": 35,
+      "skipped": 0,
+      "demo": true
+    },
+    {
+      "name": "genesis-constraint-compiler",
+      "tests": 33,
+      "passed": 33,
+      "skipped": 0,
+      "demo": true
+    },
+    {
+      "name": "genesis-verified-reuse",
+      "tests": 55,
+      "passed": 55,
+      "skipped": 0,
+      "demo": true
+    },
+    {
+      "name": "genesis-paired-experiments",
+      "tests": 30,
+      "passed": 30,
+      "skipped": 0,
+      "demo": true
+    },
+    {
+      "name": "genesis-batch-drafts",
+      "tests": 37,
+      "passed": 37,
+      "skipped": 0,
+      "demo": true
+    }
+  ],
+  "publication": "Local stage only; no network or git mutations",
+  "ci": "Configured for Node 22.23.2 and 24.14.0 on Linux/Windows; only local runtime executed"
+}
